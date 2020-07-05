@@ -1,5 +1,5 @@
 export interface Parfum {
-  id?: number;
+  id: number;
   name: string;
   tipo: string;
   genre: string;

@@ -1,5 +1,5 @@
 export interface Producer {
-  id?: number;
+  id: number;
   name: string;
   pag_web: string;
   inf_contacto: string;
