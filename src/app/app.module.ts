@@ -9,6 +9,7 @@ import { AuthModule } from 'src/auth/auth.module';
 @NgModule({
   declarations: [
     AppComponent
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
