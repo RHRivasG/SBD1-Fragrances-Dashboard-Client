@@ -70,3 +70,580 @@ Info 17   [12:14:41.954] forEachExternalModuleToImportFrom: filtered out 26 modu
 Info 18   [12:14:43.304] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
 Info 19   [12:14:43.383] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 2 structureChanged: true Elapsed: 79ms
 Info 20   [12:14:43.383] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 21   [12:17:41.651] Search path: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth
+Info 22   [12:17:41.653] For info: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth.module.ts :: Config file name: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 23   [12:17:45.186] Search path: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth
+Info 24   [12:17:45.186] For info: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-routing.module.ts :: Config file name: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 25   [12:17:53.126] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 26   [12:17:53.213] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 3 structureChanged: true Elapsed: 87ms
+Info 27   [12:17:53.213] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 28   [12:17:53.214] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 29   [12:17:53.233] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 4 structureChanged: false Elapsed: 19ms
+Info 30   [12:17:53.233] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 31   [12:18:33.848] Search path: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/layout
+Info 32   [12:18:33.848] For info: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/layout/layout.module.ts :: Config file name: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 33   [12:18:37.557] Search path: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/layout
+Info 34   [12:18:37.557] For info: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/layout/layout-routing.module.ts :: Config file name: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 35   [12:18:45.209] Search path: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/layout/navbar
+Info 36   [12:18:45.210] For info: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/layout/navbar/navbar.component.spec.ts :: Config file name: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 37   [12:21:53.208] Search path: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-productors
+Info 38   [12:21:53.209] For info: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-productors/auth-productors.component.spec.ts :: Config file name: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 39   [12:22:38.28] Search path: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app
+Info 40   [12:22:38.28] For info: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/app-routing.module.ts :: Config file name: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 41   [12:23:6.389] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 42   [12:23:6.471] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 5 structureChanged: true Elapsed: 82ms
+Info 43   [12:23:6.471] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 44   [12:23:7.305] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 45   [12:23:7.320] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 6 structureChanged: false Elapsed: 14ms
+Info 46   [12:23:7.320] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 47   [12:23:11.23] forEachExternalModuleToImportFrom: filtered out 26 modules by package.json contents
+Info 48   [12:23:13.602] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 49   [12:23:13.624] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 7 structureChanged: false Elapsed: 22ms
+Info 50   [12:23:13.624] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 51   [12:23:13.940] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 52   [12:23:13.962] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 8 structureChanged: false Elapsed: 22ms
+Info 53   [12:23:13.962] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 54   [12:23:15.282] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 55   [12:23:15.295] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 9 structureChanged: false Elapsed: 12ms
+Info 56   [12:23:15.295] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 57   [12:24:57.228] DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Wild card directory
+Info 58   [12:24:57.230] Elapsed:: 1ms DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Wild card directory
+Info 59   [12:24:57.230] DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Failed Lookup Locations
+Info 60   [12:24:57.248] Elapsed:: 18ms DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Failed Lookup Locations
+Info 61   [12:24:57.523] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 62   [12:24:57.718] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 10 structureChanged: true Elapsed: 195ms
+Info 63   [12:24:57.718] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 64   [12:24:59.749] Before ensureProjectForOpenFiles:
+Info 65   [12:24:59.750] After ensureProjectForOpenFiles:
+Info 66   [12:24:59.751] got projects updated in background, updating diagnostics for /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/app.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-routing.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/layout/layout.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/layout/layout-routing.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/layout/navbar/navbar.component.spec.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-productors/auth-productors.component.spec.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/app-routing.module.ts
+Info 67   [12:25:21.614] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 68   [12:25:21.632] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 11 structureChanged: false Elapsed: 18ms
+Info 69   [12:25:21.632] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 70   [12:28:14.690] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 71   [12:28:14.711] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 12 structureChanged: false Elapsed: 21ms
+Info 72   [12:28:14.711] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 73   [12:28:15.60] forEachExternalModuleToImportFrom: filtered out 26 modules by package.json contents
+Info 74   [12:28:15.83] forEachExternalModuleToImportFrom: filtered out 26 modules by package.json contents
+Err 75    [12:28:15.95] Exception on executing command {"command":"getCodeFixes","seq":467,"type":"request","arguments":{"file":"/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-routing.module.ts","startLine":5,"startOffset":2,"endLine":5,"endOffset":2,"errorCodes":[1005,2304,2693,7028]}}:
+
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isLabeledStatement'.
+
+    Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isLabeledStatement'.
+        at Object.cast (/usr/lib/node_modules/typescript/lib/tsserver.js:1387:25)
+        at doChange (/usr/lib/node_modules/typescript/lib/tsserver.js:131882:39)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:131874:96
+        at Function.ChangeTracker.with (/usr/lib/node_modules/typescript/lib/tsserver.js:126221:17)
+        at Object.getCodeActions (/usr/lib/node_modules/typescript/lib/tsserver.js:131874:64)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:127392:77
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:127392:23)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:139204:35
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getCodeFixesAtPosition (/usr/lib/node_modules/typescript/lib/tsserver.js:139202:23)
+        at IOSession.Session.getCodeFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:149303:64)
+        at Session.handlers.ts.createMapFromTemplate._a.<computed> (/usr/lib/node_modules/typescript/lib/tsserver.js:148040:61)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:149553:88
+        at IOSession.Session.executeWithRequestId (/usr/lib/node_modules/typescript/lib/tsserver.js:149544:28)
+        at IOSession.Session.executeCommand (/usr/lib/node_modules/typescript/lib/tsserver.js:149553:33)
+        at IOSession.Session.onMessage (/usr/lib/node_modules/typescript/lib/tsserver.js:149577:35)
+        at Interface.<anonymous> (/usr/lib/node_modules/typescript/lib/tsserver.js:150893:27)
+        at Interface.emit (events.js:314:20)
+        at Interface._onLine (readline.js:337:10)
+        at Interface._normalWrite (readline.js:482:12)
+        at Socket.ondata (readline.js:194:10)
+        at Socket.emit (events.js:314:20)
+        at addChunk (_stream_readable.js:304:12)
+        at readableAddChunk (_stream_readable.js:280:9)
+        at Socket.Readable.push (_stream_readable.js:219:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+Info 76   [12:28:15.98] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 77   [12:28:15.114] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 13 structureChanged: false Elapsed: 16ms
+Info 78   [12:28:15.114] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 79   [12:28:15.263] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 80   [12:28:15.286] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 14 structureChanged: false Elapsed: 23ms
+Info 81   [12:28:15.286] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Err 82    [12:28:15.475] Exception on executing command {"command":"getCodeFixes","seq":476,"type":"request","arguments":{"file":"/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-routing.module.ts","startLine":4,"startOffset":1,"endLine":4,"endOffset":1,"errorCodes":[7028]}}:
+
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isLabeledStatement'.
+
+    Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isLabeledStatement'.
+        at Object.cast (/usr/lib/node_modules/typescript/lib/tsserver.js:1387:25)
+        at doChange (/usr/lib/node_modules/typescript/lib/tsserver.js:131882:39)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:131874:96
+        at Function.ChangeTracker.with (/usr/lib/node_modules/typescript/lib/tsserver.js:126221:17)
+        at Object.getCodeActions (/usr/lib/node_modules/typescript/lib/tsserver.js:131874:64)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:127392:77
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:127392:23)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:139204:35
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getCodeFixesAtPosition (/usr/lib/node_modules/typescript/lib/tsserver.js:139202:23)
+        at IOSession.Session.getCodeFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:149303:64)
+        at Session.handlers.ts.createMapFromTemplate._a.<computed> (/usr/lib/node_modules/typescript/lib/tsserver.js:148040:61)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:149553:88
+        at IOSession.Session.executeWithRequestId (/usr/lib/node_modules/typescript/lib/tsserver.js:149544:28)
+        at IOSession.Session.executeCommand (/usr/lib/node_modules/typescript/lib/tsserver.js:149553:33)
+        at IOSession.Session.onMessage (/usr/lib/node_modules/typescript/lib/tsserver.js:149577:35)
+        at Interface.<anonymous> (/usr/lib/node_modules/typescript/lib/tsserver.js:150893:27)
+        at Interface.emit (events.js:314:20)
+        at Interface._onLine (readline.js:337:10)
+        at Interface._normalWrite (readline.js:482:12)
+        at Socket.ondata (readline.js:194:10)
+        at Socket.emit (events.js:314:20)
+        at addChunk (_stream_readable.js:304:12)
+        at readableAddChunk (_stream_readable.js:280:9)
+        at Socket.Readable.push (_stream_readable.js:219:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+Info 83   [12:28:15.813] forEachExternalModuleToImportFrom: filtered out 26 modules by package.json contents
+Info 84   [12:28:15.834] forEachExternalModuleToImportFrom: filtered out 26 modules by package.json contents
+Err 85    [12:28:15.835] Exception on executing command {"command":"getCodeFixes","seq":478,"type":"request","arguments":{"file":"/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-routing.module.ts","startLine":4,"startOffset":1,"endLine":4,"endOffset":1,"errorCodes":[1005,2304,2693,7028]}}:
+
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isLabeledStatement'.
+
+    Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isLabeledStatement'.
+        at Object.cast (/usr/lib/node_modules/typescript/lib/tsserver.js:1387:25)
+        at doChange (/usr/lib/node_modules/typescript/lib/tsserver.js:131882:39)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:131874:96
+        at Function.ChangeTracker.with (/usr/lib/node_modules/typescript/lib/tsserver.js:126221:17)
+        at Object.getCodeActions (/usr/lib/node_modules/typescript/lib/tsserver.js:131874:64)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:127392:77
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:127392:23)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:139204:35
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getCodeFixesAtPosition (/usr/lib/node_modules/typescript/lib/tsserver.js:139202:23)
+        at IOSession.Session.getCodeFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:149303:64)
+        at Session.handlers.ts.createMapFromTemplate._a.<computed> (/usr/lib/node_modules/typescript/lib/tsserver.js:148040:61)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:149553:88
+        at IOSession.Session.executeWithRequestId (/usr/lib/node_modules/typescript/lib/tsserver.js:149544:28)
+        at IOSession.Session.executeCommand (/usr/lib/node_modules/typescript/lib/tsserver.js:149553:33)
+        at IOSession.Session.onMessage (/usr/lib/node_modules/typescript/lib/tsserver.js:149577:35)
+        at Interface.<anonymous> (/usr/lib/node_modules/typescript/lib/tsserver.js:150893:27)
+        at Interface.emit (events.js:314:20)
+        at Interface._onLine (readline.js:337:10)
+        at Interface._normalWrite (readline.js:482:12)
+        at Socket.ondata (readline.js:194:10)
+        at Socket.emit (events.js:314:20)
+        at addChunk (_stream_readable.js:304:12)
+        at readableAddChunk (_stream_readable.js:280:9)
+        at Socket.Readable.push (_stream_readable.js:219:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+Info 86   [12:28:16.333] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 87   [12:28:16.351] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 15 structureChanged: false Elapsed: 18ms
+Info 88   [12:28:16.351] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 89   [12:28:16.762] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 90   [12:28:16.787] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 16 structureChanged: false Elapsed: 25ms
+Info 91   [12:28:16.787] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 92   [12:28:17.138] forEachExternalModuleToImportFrom: filtered out 26 modules by package.json contents
+Info 93   [12:28:17.159] forEachExternalModuleToImportFrom: filtered out 26 modules by package.json contents
+Err 94    [12:28:17.159] Exception on executing command {"command":"getCodeFixes","seq":491,"type":"request","arguments":{"file":"/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-routing.module.ts","startLine":5,"startOffset":2,"endLine":5,"endOffset":2,"errorCodes":[1005,2304,2693,7028]}}:
+
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isLabeledStatement'.
+
+    Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isLabeledStatement'.
+        at Object.cast (/usr/lib/node_modules/typescript/lib/tsserver.js:1387:25)
+        at doChange (/usr/lib/node_modules/typescript/lib/tsserver.js:131882:39)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:131874:96
+        at Function.ChangeTracker.with (/usr/lib/node_modules/typescript/lib/tsserver.js:126221:17)
+        at Object.getCodeActions (/usr/lib/node_modules/typescript/lib/tsserver.js:131874:64)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:127392:77
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:127392:23)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:139204:35
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getCodeFixesAtPosition (/usr/lib/node_modules/typescript/lib/tsserver.js:139202:23)
+        at IOSession.Session.getCodeFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:149303:64)
+        at Session.handlers.ts.createMapFromTemplate._a.<computed> (/usr/lib/node_modules/typescript/lib/tsserver.js:148040:61)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:149553:88
+        at IOSession.Session.executeWithRequestId (/usr/lib/node_modules/typescript/lib/tsserver.js:149544:28)
+        at IOSession.Session.executeCommand (/usr/lib/node_modules/typescript/lib/tsserver.js:149553:33)
+        at IOSession.Session.onMessage (/usr/lib/node_modules/typescript/lib/tsserver.js:149577:35)
+        at Interface.<anonymous> (/usr/lib/node_modules/typescript/lib/tsserver.js:150893:27)
+        at Interface.emit (events.js:314:20)
+        at Interface._onLine (readline.js:337:10)
+        at Interface._normalWrite (readline.js:482:12)
+        at Socket.ondata (readline.js:194:10)
+        at Socket.emit (events.js:314:20)
+        at addChunk (_stream_readable.js:304:12)
+        at readableAddChunk (_stream_readable.js:280:9)
+        at Socket.Readable.push (_stream_readable.js:219:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+Info 95   [12:28:18.604] forEachExternalModuleToImportFrom: filtered out 26 modules by package.json contents
+Info 96   [12:28:18.626] forEachExternalModuleToImportFrom: filtered out 26 modules by package.json contents
+Err 97    [12:28:18.627] Exception on executing command {"command":"getCodeFixes","seq":496,"type":"request","arguments":{"file":"/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-routing.module.ts","startLine":5,"startOffset":2,"endLine":5,"endOffset":2,"errorCodes":[1005,2304,2693,7028]}}:
+
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isLabeledStatement'.
+
+    Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isLabeledStatement'.
+        at Object.cast (/usr/lib/node_modules/typescript/lib/tsserver.js:1387:25)
+        at doChange (/usr/lib/node_modules/typescript/lib/tsserver.js:131882:39)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:131874:96
+        at Function.ChangeTracker.with (/usr/lib/node_modules/typescript/lib/tsserver.js:126221:17)
+        at Object.getCodeActions (/usr/lib/node_modules/typescript/lib/tsserver.js:131874:64)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:127392:77
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:127392:23)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:139204:35
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getCodeFixesAtPosition (/usr/lib/node_modules/typescript/lib/tsserver.js:139202:23)
+        at IOSession.Session.getCodeFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:149303:64)
+        at Session.handlers.ts.createMapFromTemplate._a.<computed> (/usr/lib/node_modules/typescript/lib/tsserver.js:148040:61)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:149553:88
+        at IOSession.Session.executeWithRequestId (/usr/lib/node_modules/typescript/lib/tsserver.js:149544:28)
+        at IOSession.Session.executeCommand (/usr/lib/node_modules/typescript/lib/tsserver.js:149553:33)
+        at IOSession.Session.onMessage (/usr/lib/node_modules/typescript/lib/tsserver.js:149577:35)
+        at Interface.<anonymous> (/usr/lib/node_modules/typescript/lib/tsserver.js:150893:27)
+        at Interface.emit (events.js:314:20)
+        at Interface._onLine (readline.js:337:10)
+        at Interface._normalWrite (readline.js:482:12)
+        at Socket.ondata (readline.js:194:10)
+        at Socket.emit (events.js:314:20)
+        at addChunk (_stream_readable.js:304:12)
+        at readableAddChunk (_stream_readable.js:280:9)
+        at Socket.Readable.push (_stream_readable.js:219:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+Info 98   [12:28:20.32] forEachExternalModuleToImportFrom: filtered out 26 modules by package.json contents
+Info 99   [12:28:20.54] forEachExternalModuleToImportFrom: filtered out 26 modules by package.json contents
+Err 100   [12:28:20.55] Exception on executing command {"command":"getCodeFixes","seq":502,"type":"request","arguments":{"file":"/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-routing.module.ts","startLine":5,"startOffset":2,"endLine":5,"endOffset":2,"errorCodes":[1005,2304,2693,7028]}}:
+
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isLabeledStatement'.
+
+    Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isLabeledStatement'.
+        at Object.cast (/usr/lib/node_modules/typescript/lib/tsserver.js:1387:25)
+        at doChange (/usr/lib/node_modules/typescript/lib/tsserver.js:131882:39)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:131874:96
+        at Function.ChangeTracker.with (/usr/lib/node_modules/typescript/lib/tsserver.js:126221:17)
+        at Object.getCodeActions (/usr/lib/node_modules/typescript/lib/tsserver.js:131874:64)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:127392:77
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:127392:23)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:139204:35
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getCodeFixesAtPosition (/usr/lib/node_modules/typescript/lib/tsserver.js:139202:23)
+        at IOSession.Session.getCodeFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:149303:64)
+        at Session.handlers.ts.createMapFromTemplate._a.<computed> (/usr/lib/node_modules/typescript/lib/tsserver.js:148040:61)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:149553:88
+        at IOSession.Session.executeWithRequestId (/usr/lib/node_modules/typescript/lib/tsserver.js:149544:28)
+        at IOSession.Session.executeCommand (/usr/lib/node_modules/typescript/lib/tsserver.js:149553:33)
+        at IOSession.Session.onMessage (/usr/lib/node_modules/typescript/lib/tsserver.js:149577:35)
+        at Interface.<anonymous> (/usr/lib/node_modules/typescript/lib/tsserver.js:150893:27)
+        at Interface.emit (events.js:314:20)
+        at Interface._onLine (readline.js:337:10)
+        at Interface._normalWrite (readline.js:482:12)
+        at Socket.ondata (readline.js:194:10)
+        at Socket.emit (events.js:314:20)
+        at addChunk (_stream_readable.js:304:12)
+        at readableAddChunk (_stream_readable.js:280:9)
+        at Socket.Readable.push (_stream_readable.js:219:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+Info 101  [12:28:20.333] forEachExternalModuleToImportFrom: filtered out 26 modules by package.json contents
+Info 102  [12:28:20.351] forEachExternalModuleToImportFrom: filtered out 26 modules by package.json contents
+Err 103   [12:28:20.352] Exception on executing command {"command":"getCodeFixes","seq":506,"type":"request","arguments":{"file":"/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-routing.module.ts","startLine":5,"startOffset":2,"endLine":5,"endOffset":2,"errorCodes":[1005,2304,2693,7028]}}:
+
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isLabeledStatement'.
+
+    Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isLabeledStatement'.
+        at Object.cast (/usr/lib/node_modules/typescript/lib/tsserver.js:1387:25)
+        at doChange (/usr/lib/node_modules/typescript/lib/tsserver.js:131882:39)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:131874:96
+        at Function.ChangeTracker.with (/usr/lib/node_modules/typescript/lib/tsserver.js:126221:17)
+        at Object.getCodeActions (/usr/lib/node_modules/typescript/lib/tsserver.js:131874:64)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:127392:77
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:127392:23)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:139204:35
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getCodeFixesAtPosition (/usr/lib/node_modules/typescript/lib/tsserver.js:139202:23)
+        at IOSession.Session.getCodeFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:149303:64)
+        at Session.handlers.ts.createMapFromTemplate._a.<computed> (/usr/lib/node_modules/typescript/lib/tsserver.js:148040:61)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:149553:88
+        at IOSession.Session.executeWithRequestId (/usr/lib/node_modules/typescript/lib/tsserver.js:149544:28)
+        at IOSession.Session.executeCommand (/usr/lib/node_modules/typescript/lib/tsserver.js:149553:33)
+        at IOSession.Session.onMessage (/usr/lib/node_modules/typescript/lib/tsserver.js:149577:35)
+        at Interface.<anonymous> (/usr/lib/node_modules/typescript/lib/tsserver.js:150893:27)
+        at Interface.emit (events.js:314:20)
+        at Interface._onLine (readline.js:337:10)
+        at Interface._normalWrite (readline.js:482:12)
+        at Socket.ondata (readline.js:194:10)
+        at Socket.emit (events.js:314:20)
+        at addChunk (_stream_readable.js:304:12)
+        at readableAddChunk (_stream_readable.js:280:9)
+        at Socket.Readable.push (_stream_readable.js:219:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+Info 104  [12:28:21.266] forEachExternalModuleToImportFrom: filtered out 26 modules by package.json contents
+Info 105  [12:28:21.285] forEachExternalModuleToImportFrom: filtered out 26 modules by package.json contents
+Err 106   [12:28:21.286] Exception on executing command {"command":"getCodeFixes","seq":508,"type":"request","arguments":{"file":"/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-routing.module.ts","startLine":5,"startOffset":2,"endLine":5,"endOffset":2,"errorCodes":[1005,2304,2693,7028]}}:
+
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isLabeledStatement'.
+
+    Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isLabeledStatement'.
+        at Object.cast (/usr/lib/node_modules/typescript/lib/tsserver.js:1387:25)
+        at doChange (/usr/lib/node_modules/typescript/lib/tsserver.js:131882:39)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:131874:96
+        at Function.ChangeTracker.with (/usr/lib/node_modules/typescript/lib/tsserver.js:126221:17)
+        at Object.getCodeActions (/usr/lib/node_modules/typescript/lib/tsserver.js:131874:64)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:127392:77
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:127392:23)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:139204:35
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getCodeFixesAtPosition (/usr/lib/node_modules/typescript/lib/tsserver.js:139202:23)
+        at IOSession.Session.getCodeFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:149303:64)
+        at Session.handlers.ts.createMapFromTemplate._a.<computed> (/usr/lib/node_modules/typescript/lib/tsserver.js:148040:61)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:149553:88
+        at IOSession.Session.executeWithRequestId (/usr/lib/node_modules/typescript/lib/tsserver.js:149544:28)
+        at IOSession.Session.executeCommand (/usr/lib/node_modules/typescript/lib/tsserver.js:149553:33)
+        at IOSession.Session.onMessage (/usr/lib/node_modules/typescript/lib/tsserver.js:149577:35)
+        at Interface.<anonymous> (/usr/lib/node_modules/typescript/lib/tsserver.js:150893:27)
+        at Interface.emit (events.js:314:20)
+        at Interface._onLine (readline.js:337:10)
+        at Interface._normalWrite (readline.js:482:12)
+        at Socket.ondata (readline.js:194:10)
+        at Socket.emit (events.js:314:20)
+        at addChunk (_stream_readable.js:304:12)
+        at readableAddChunk (_stream_readable.js:280:9)
+        at Socket.Readable.push (_stream_readable.js:219:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+Info 107  [12:28:21.628] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 108  [12:28:21.645] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 17 structureChanged: false Elapsed: 17ms
+Info 109  [12:28:21.645] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 110  [12:28:21.683] getCompletionData: Get current token: 0
+Info 111  [12:28:21.683] getCompletionData: Is inside comment: 0
+Info 112  [12:28:21.683] getCompletionData: Get previous token 1: 0
+Info 113  [12:28:21.683] getCompletionData: Get previous token 2: 0
+Info 114  [12:28:21.683] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 115  [12:28:21.689] getSymbolsFromOtherSourceFileExports: Recomputing list
+Info 116  [12:28:21.737] forEachExternalModuleToImportFrom: filtered out 26 modules by package.json contents
+Info 117  [12:28:21.738] getSymbolsFromOtherSourceFileExports: 49
+Info 118  [12:28:21.745] getCompletionData: Semantic work: 62
+Info 119  [12:28:21.779] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 33
+Info 120  [12:28:22.937] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 121  [12:28:22.964] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 18 structureChanged: false Elapsed: 27ms
+Info 122  [12:28:22.964] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 123  [12:28:23.297] forEachExternalModuleToImportFrom: filtered out 26 modules by package.json contents
+Info 124  [12:28:23.322] forEachExternalModuleToImportFrom: filtered out 26 modules by package.json contents
+Err 125   [12:28:23.322] Exception on executing command {"command":"getCodeFixes","seq":531,"type":"request","arguments":{"file":"/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-routing.module.ts","startLine":5,"startOffset":5,"endLine":5,"endOffset":5,"errorCodes":[1005,1005,2304,2304,2693,7028]}}:
+
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isLabeledStatement'.
+
+    Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isLabeledStatement'.
+        at Object.cast (/usr/lib/node_modules/typescript/lib/tsserver.js:1387:25)
+        at doChange (/usr/lib/node_modules/typescript/lib/tsserver.js:131882:39)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:131874:96
+        at Function.ChangeTracker.with (/usr/lib/node_modules/typescript/lib/tsserver.js:126221:17)
+        at Object.getCodeActions (/usr/lib/node_modules/typescript/lib/tsserver.js:131874:64)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:127392:77
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:127392:23)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:139204:35
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getCodeFixesAtPosition (/usr/lib/node_modules/typescript/lib/tsserver.js:139202:23)
+        at IOSession.Session.getCodeFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:149303:64)
+        at Session.handlers.ts.createMapFromTemplate._a.<computed> (/usr/lib/node_modules/typescript/lib/tsserver.js:148040:61)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:149553:88
+        at IOSession.Session.executeWithRequestId (/usr/lib/node_modules/typescript/lib/tsserver.js:149544:28)
+        at IOSession.Session.executeCommand (/usr/lib/node_modules/typescript/lib/tsserver.js:149553:33)
+        at IOSession.Session.onMessage (/usr/lib/node_modules/typescript/lib/tsserver.js:149577:35)
+        at Interface.<anonymous> (/usr/lib/node_modules/typescript/lib/tsserver.js:150893:27)
+        at Interface.emit (events.js:314:20)
+        at Interface._onLine (readline.js:337:10)
+        at Interface._normalWrite (readline.js:482:12)
+        at Socket.ondata (readline.js:194:10)
+        at Socket.emit (events.js:314:20)
+        at addChunk (_stream_readable.js:304:12)
+        at readableAddChunk (_stream_readable.js:280:9)
+        at Socket.Readable.push (_stream_readable.js:219:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+Info 126  [12:28:23.854] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 127  [12:28:23.876] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 19 structureChanged: false Elapsed: 22ms
+Info 128  [12:28:23.876] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 129  [12:30:6.938] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 130  [12:30:7.43] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 20 structureChanged: true Elapsed: 105ms
+Info 131  [12:30:7.43] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 132  [12:30:36.317] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 133  [12:30:36.341] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 21 structureChanged: false Elapsed: 24ms
+Info 134  [12:30:36.341] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 135  [12:30:52.512] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 136  [12:30:52.538] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 22 structureChanged: false Elapsed: 26ms
+Info 137  [12:30:52.538] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 138  [12:30:52.825] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 139  [12:30:52.848] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 23 structureChanged: false Elapsed: 23ms
+Info 140  [12:30:52.849] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 141  [12:31:45.833] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 142  [12:31:45.863] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 24 structureChanged: false Elapsed: 30ms
+Info 143  [12:31:45.863] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 144  [12:31:46.926] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 145  [12:31:46.945] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 25 structureChanged: false Elapsed: 19ms
+Info 146  [12:31:46.945] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 147  [12:31:46.945] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 148  [12:31:46.958] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 26 structureChanged: false Elapsed: 13ms
+Info 149  [12:31:46.959] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 150  [12:31:47.407] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 151  [12:31:47.425] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 27 structureChanged: false Elapsed: 18ms
+Info 152  [12:31:47.425] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 153  [12:31:47.469] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 154  [12:31:47.493] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 28 structureChanged: false Elapsed: 24ms
+Info 155  [12:31:47.493] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 156  [12:31:48.308] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 157  [12:31:48.321] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 29 structureChanged: false Elapsed: 13ms
+Info 158  [12:31:48.321] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 159  [12:31:48.650] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 160  [12:31:48.679] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 30 structureChanged: false Elapsed: 29ms
+Info 161  [12:31:48.679] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 162  [12:31:48.705] getCompletionData: Get current token: 0
+Info 163  [12:31:48.705] getCompletionData: Is inside comment: 0
+Info 164  [12:31:48.705] getCompletionData: Get previous token 1: 0
+Info 165  [12:31:48.705] getCompletionData: Get previous token 2: 0
+Info 166  [12:31:48.706] getCompletionsAtPosition: isCompletionListBlocker: 1
+Info 167  [12:31:48.707] getCompletionData: Semantic work: 1
+Info 168  [12:31:48.714] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6
+Info 169  [12:31:48.752] getCompletionData: Get current token: 0
+Info 170  [12:31:48.752] getCompletionData: Is inside comment: 0
+Info 171  [12:31:48.752] getCompletionData: Get previous token 1: 0
+Info 172  [12:31:48.752] getCompletionData: Get previous token 2: 0
+Info 173  [12:31:48.752] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 174  [12:31:48.752] getCompletionData: Semantic work: 0
+Info 175  [12:31:48.755] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 3
+Info 176  [12:31:48.794] getCompletionData: Get current token: 0
+Info 177  [12:31:48.794] getCompletionData: Is inside comment: 0
+Info 178  [12:31:48.794] getCompletionData: Get previous token 1: 0
+Info 179  [12:31:48.794] getCompletionData: Get previous token 2: 0
+Info 180  [12:31:48.794] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 181  [12:31:48.794] getCompletionData: Semantic work: 0
+Info 182  [12:31:48.797] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 3
+Info 183  [12:31:49.819] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 184  [12:31:49.837] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 31 structureChanged: false Elapsed: 18ms
+Info 185  [12:31:49.837] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 186  [12:31:49.871] getCompletionData: Get current token: 0
+Info 187  [12:31:49.871] getCompletionData: Is inside comment: 0
+Info 188  [12:31:49.871] getCompletionData: Get previous token 1: 0
+Info 189  [12:31:49.871] getCompletionData: Get previous token 2: 0
+Info 190  [12:31:49.871] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 191  [12:31:49.871] getCompletionData: Semantic work: 0
+Info 192  [12:31:49.873] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 2
+Info 193  [12:31:49.995] getCompletionData: Get current token: 0
+Info 194  [12:31:49.995] getCompletionData: Is inside comment: 0
+Info 195  [12:31:49.995] getCompletionData: Get previous token 1: 0
+Info 196  [12:31:49.995] getCompletionData: Get previous token 2: 0
+Info 197  [12:31:49.995] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 198  [12:31:49.995] getCompletionData: Semantic work: 0
+Info 199  [12:31:50.0] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 4
+Info 200  [12:31:50.45] getCompletionData: Get current token: 0
+Info 201  [12:31:50.45] getCompletionData: Is inside comment: 0
+Info 202  [12:31:50.45] getCompletionData: Get previous token 1: 0
+Info 203  [12:31:50.45] getCompletionData: Get previous token 2: 0
+Info 204  [12:31:50.45] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 205  [12:31:50.45] getCompletionData: Semantic work: 0
+Info 206  [12:31:50.46] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1
+Info 207  [12:40:34.775] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 208  [12:40:34.798] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 32 structureChanged: false Elapsed: 22ms
+Info 209  [12:40:34.798] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 210  [12:40:35.546] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 211  [12:40:35.569] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 33 structureChanged: false Elapsed: 23ms
+Info 212  [12:40:35.569] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 213  [12:41:40.299] DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-step1 :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Wild card directory
+Info 214  [12:41:40.300] Elapsed:: 1ms DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-step1 :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Wild card directory
+Info 215  [12:41:40.300] DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-step1 :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Failed Lookup Locations
+Info 216  [12:41:40.300] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-step1 :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Failed Lookup Locations
+Info 217  [12:41:40.573] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 218  [12:41:40.659] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 34 structureChanged: true Elapsed: 86ms
+Info 219  [12:41:40.660] Project '/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json' (Configured)
+Info 220  [12:41:40.660] 	Files (457)
+
+Info 221  [12:41:40.660] -----------------------------------------------
+Info 222  [12:41:41.300] DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Wild card directory
+Info 223  [12:41:41.300] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Wild card directory
+Info 224  [12:41:41.300] DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Failed Lookup Locations
+Info 225  [12:41:41.313] Elapsed:: 13ms DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Failed Lookup Locations
+Info 226  [12:41:41.570] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 227  [12:41:41.732] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 35 structureChanged: true Elapsed: 162ms
+Info 228  [12:41:41.732] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 229  [12:41:41.917] FileWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-step1/auth-step1.component.spec.ts 2:: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-step1/auth-step1.component.spec.ts 500 undefined Project:  WatchType: Closed Script info
+Info 230  [12:41:41.917] Elapsed:: 0ms FileWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-step1/auth-step1.component.spec.ts 2:: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-step1/auth-step1.component.spec.ts 500 undefined Project:  WatchType: Closed Script info
+Info 231  [12:41:41.918] FileWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-step1/auth-step1.component.ts 2:: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-step1/auth-step1.component.ts 500 undefined Project:  WatchType: Closed Script info
+Info 232  [12:41:41.918] Elapsed:: 0ms FileWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-step1/auth-step1.component.ts 2:: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-step1/auth-step1.component.ts 500 undefined Project:  WatchType: Closed Script info
+Info 233  [12:41:43.813] Before ensureProjectForOpenFiles:
+Info 234  [12:41:43.814] After ensureProjectForOpenFiles:
+Info 235  [12:41:43.814] got projects updated in background, updating diagnostics for /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/app.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-routing.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/layout/layout.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/layout/layout-routing.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/layout/navbar/navbar.component.spec.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-productors/auth-productors.component.spec.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/app-routing.module.ts
+Err 236   [12:41:50.13] Exception on executing command {"command":"getCodeFixes","seq":788,"type":"request","arguments":{"file":"/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth.module.ts","startLine":9,"startOffset":3,"endLine":9,"endOffset":3,"errorCodes":[2307]}}:
+
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+
+    Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+        at Object.cast (/usr/lib/node_modules/typescript/lib/tsserver.js:1387:25)
+        at tryGetImportedPackageName (/usr/lib/node_modules/typescript/lib/tsserver.js:131135:33)
+        at Object.getCodeActions (/usr/lib/node_modules/typescript/lib/tsserver.js:131103:35)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:127392:77
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:127392:23)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:139204:35
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getCodeFixesAtPosition (/usr/lib/node_modules/typescript/lib/tsserver.js:139202:23)
+        at IOSession.Session.getCodeFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:149303:64)
+        at Session.handlers.ts.createMapFromTemplate._a.<computed> (/usr/lib/node_modules/typescript/lib/tsserver.js:148040:61)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:149553:88
+        at IOSession.Session.executeWithRequestId (/usr/lib/node_modules/typescript/lib/tsserver.js:149544:28)
+        at IOSession.Session.executeCommand (/usr/lib/node_modules/typescript/lib/tsserver.js:149553:33)
+        at IOSession.Session.onMessage (/usr/lib/node_modules/typescript/lib/tsserver.js:149577:35)
+        at Interface.<anonymous> (/usr/lib/node_modules/typescript/lib/tsserver.js:150893:27)
+        at Interface.emit (events.js:314:20)
+        at Interface._onLine (readline.js:337:10)
+        at Interface._normalWrite (readline.js:482:12)
+        at Socket.ondata (readline.js:194:10)
+        at Socket.emit (events.js:314:20)
+        at addChunk (_stream_readable.js:304:12)
+        at readableAddChunk (_stream_readable.js:280:9)
+        at Socket.Readable.push (_stream_readable.js:219:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+Err 237   [12:41:50.315] Exception on executing command {"command":"getCodeFixes","seq":791,"type":"request","arguments":{"file":"/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth.module.ts","startLine":9,"startOffset":3,"endLine":9,"endOffset":3,"errorCodes":[2307]}}:
+
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+
+    Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+        at Object.cast (/usr/lib/node_modules/typescript/lib/tsserver.js:1387:25)
+        at tryGetImportedPackageName (/usr/lib/node_modules/typescript/lib/tsserver.js:131135:33)
+        at Object.getCodeActions (/usr/lib/node_modules/typescript/lib/tsserver.js:131103:35)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:127392:77
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:127392:23)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:139204:35
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getCodeFixesAtPosition (/usr/lib/node_modules/typescript/lib/tsserver.js:139202:23)
+        at IOSession.Session.getCodeFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:149303:64)
+        at Session.handlers.ts.createMapFromTemplate._a.<computed> (/usr/lib/node_modules/typescript/lib/tsserver.js:148040:61)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:149553:88
+        at IOSession.Session.executeWithRequestId (/usr/lib/node_modules/typescript/lib/tsserver.js:149544:28)
+        at IOSession.Session.executeCommand (/usr/lib/node_modules/typescript/lib/tsserver.js:149553:33)
+        at IOSession.Session.onMessage (/usr/lib/node_modules/typescript/lib/tsserver.js:149577:35)
+        at Interface.<anonymous> (/usr/lib/node_modules/typescript/lib/tsserver.js:150893:27)
+        at Interface.emit (events.js:314:20)
+        at Interface._onLine (readline.js:337:10)
+        at Interface._normalWrite (readline.js:482:12)
+        at Socket.ondata (readline.js:194:10)
+        at Socket.emit (events.js:314:20)
+        at addChunk (_stream_readable.js:304:12)
+        at readableAddChunk (_stream_readable.js:280:9)
+        at Socket.Readable.push (_stream_readable.js:219:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+Info 238  [12:41:51.100] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 239  [12:41:51.167] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 36 structureChanged: true Elapsed: 66ms
+Info 240  [12:41:51.167] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 241  [12:41:52.253] forEachExternalModuleToImportFrom: filtered out 26 modules by package.json contents
+Info 242  [12:41:52.683] forEachExternalModuleToImportFrom: filtered out 26 modules by package.json contents
+Info 243  [12:41:54.797] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 244  [12:41:54.814] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 37 structureChanged: false Elapsed: 17ms
+Info 245  [12:41:54.814] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 246  [12:41:54.851] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 247  [12:41:54.867] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 38 structureChanged: false Elapsed: 16ms
+Info 248  [12:41:54.867] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 249  [12:41:55.408] forEachExternalModuleToImportFrom: filtered out 26 modules by package.json contents
+Info 250  [12:41:55.623] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 251  [12:41:55.646] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 39 structureChanged: false Elapsed: 23ms
+Info 252  [12:41:55.646] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 253  [12:41:55.968] forEachExternalModuleToImportFrom: filtered out 26 modules by package.json contents
+Info 254  [12:41:57.473] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 255  [12:41:57.491] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 40 structureChanged: false Elapsed: 18ms
+Info 256  [12:41:57.491] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 257  [12:41:57.867] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 258  [12:41:57.884] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 41 structureChanged: false Elapsed: 17ms
+Info 259  [12:41:57.884] Different program with same set of files:: oldProgram.structureIsReused:: 2
