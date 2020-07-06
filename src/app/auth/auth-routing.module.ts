@@ -9,21 +9,16 @@ const routes: Routes = [
   {
     path: 'auth',
     component: AuthLayoutComponent,
-    children: [
-      {
-        path: 'productors',
-        component: AuthProductorsComponent
-      },
-      {
-        path: 'step1',
-        component: AuthStep1Component
-      },
-      {
-        path: '',
-        redirectTo: '/auth/step1',
-        pathMatch: 'full'
-      }
-    ],
+  },
+  {
+    path: '',
+    pathMatch: 'full',
+    redirectTo: '/auth'
+  },
+  {
+    path: '**',
+    pathMatch: 'full',
+    redirectTo: '/auth'
   }
 ];
 
