@@ -10,13 +10,14 @@ import { MatButtonModule } from "@angular/material/button";
 import { MatIconModule } from "@angular/material/icon";
 import { MatCardModule } from "@angular/material/card";
 import { MatGridListModule } from "@angular/material/grid-list";
-import { NavbarComponent } from "./layout/navbar/navbar.component";
+import { LayoutModule } from './layout/layout.module';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     AuthModule,
+    LayoutModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
