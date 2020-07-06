@@ -1,0 +1,18 @@
+[0:19:27.523] Global cache location '/home/syfers/.cache/typescript/3.9', safe file path '/usr/lib/node_modules/typescript/lib/typingSafeList.json', types map path /usr/lib/node_modules/typescript/lib/typesMap.json
+[0:19:27.524] Processing cache location '/home/syfers/.cache/typescript/3.9'
+[0:19:27.524] Trying to find '/home/syfers/.cache/typescript/3.9/package.json'...
+[0:19:27.524] Finished processing cache location '/home/syfers/.cache/typescript/3.9'
+[0:19:27.524] Process id: 31467
+[0:19:27.524] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[0:19:27.524] validateDefaultNpmLocation: false
+[0:19:27.524] Npm config file: /home/syfers/.cache/typescript/3.9/package.json
+[0:19:27.524] Npm config file: '/home/syfers/.cache/typescript/3.9/package.json' is missing, creating new one...
+[0:19:27.525] Updating types-registry npm package...
+[0:19:27.525] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[0:19:39.495]     Succeeded. stdout:
+    + types-registry@0.1.497
+    added 1 package from 1 contributor and audited 1 package in 11.455s
+found 0 vulnerabilities
+
+
+[0:19:39.495] Updated types-registry npm package
