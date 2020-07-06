@@ -55,11 +55,7 @@
 
   <span class="example-spacer"></span>
 
-  <button
-    mat-icon-button
-    class="example-icon"
-    aria-label="Example icon-button with arrow_drop_down icon"
-  >
+  <button mat-button [matMenuTriggerFor]="cuenta">
     <img
       class="mat-card-avatar"
       src="https://material.angular.io/assets/img/examples/shiba1.jpg"
@@ -67,4 +63,9 @@
     />
     <mat-icon>arrow_drop_down</mat-icon>
   </button>
+
+  <mat-menu #cuenta="matMenu" xPosition="before">
+    <button mat-menu-item>Birds</button>
+    <button mat-menu-item>Mammals</button>
+  </mat-menu>
 </mat-toolbar>
