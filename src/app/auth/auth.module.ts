@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatToolbarModule } from '@angular/material/toolbar'
 import { MatStepperModule } from '@angular/material/stepper'
-// import { MatCardModule } from '@angular/material/card'
 
 import { AuthRoutingModule } from './auth-routing.module';
 import { AuthLayoutComponent } from './auth-layout/auth-layout.component';
@@ -15,7 +14,6 @@ import { AuthStep1Component } from './auth-step1/auth-step1.component';
   imports: [
     CommonModule,
     MatStepperModule,
-//    MatCardModule,
     MatToolbarModule,
     AuthRoutingModule
   ]

@@ -1,0 +1,14 @@
+<mat-toolbar>
+  <p>Estas entando a <b>Persistence</b>... ¡Identificate! </p>
+</mat-toolbar>
+<mat-horizontal-stepper lineal>
+  <mat-step>
+    <ng-template matStepLabel>¿Que tipo de empresa desea ser?
+    </ng-template>
+    <router-outlet></router-outlet>
+  </mat-step>
+    <mat-step>
+    <ng-template matStepLabel>¿Que empresa desea ser?</ng-template>
+    <router-outlet></router-outlet>
+  </mat-step>
+</mat-horizontal-stepper>

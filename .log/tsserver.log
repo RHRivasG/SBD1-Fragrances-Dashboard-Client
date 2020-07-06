@@ -2653,3 +2653,671 @@ Info 2496 [2:6:53.353] Different program with same set of files:: oldProgram.str
 Info 2497 [2:6:55.460] Before ensureProjectForOpenFiles:
 Info 2498 [2:6:55.460] After ensureProjectForOpenFiles:
 Info 2499 [2:6:55.460] got projects updated in background, updating diagnostics for /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/app.component.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-routing.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/app.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/app-routing.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-layout/auth-layout.component.spec.ts
+Info 2500 [11:39:55.569] DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Wild card directory
+Info 2501 [11:39:55.569] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Wild card directory
+Info 2502 [11:39:55.570] DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Failed Lookup Locations
+Info 2503 [11:39:55.590] Elapsed:: 20ms DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Failed Lookup Locations
+Info 2504 [11:39:55.853] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2505 [11:39:55.999] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 530 structureChanged: true Elapsed: 146ms
+Info 2506 [11:39:55.999] Project '/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json' (Configured)
+Info 2507 [11:39:55.999] 	Files (446)
+
+Info 2508 [11:39:55.999] -----------------------------------------------
+Info 2509 [11:39:58.91] Before ensureProjectForOpenFiles:
+Info 2510 [11:39:58.91] After ensureProjectForOpenFiles:
+Info 2511 [11:39:58.91] got projects updated in background, updating diagnostics for /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/app.component.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-routing.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/app.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/app-routing.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-layout/auth-layout.component.spec.ts
+Info 2512 [11:40:15.903] DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Wild card directory
+Info 2513 [11:40:15.903] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Wild card directory
+Info 2514 [11:40:15.903] DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Failed Lookup Locations
+Info 2515 [11:40:15.903] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Failed Lookup Locations
+Info 2516 [11:40:16.170] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2517 [11:40:16.248] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 531 structureChanged: true Elapsed: 78ms
+Info 2518 [11:40:16.248] Project '/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json' (Configured)
+Info 2519 [11:40:16.248] 	Files (446)
+
+Info 2520 [11:40:16.248] -----------------------------------------------
+Info 2521 [11:40:16.905] DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Wild card directory
+Info 2522 [11:40:16.906] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Wild card directory
+Info 2523 [11:40:16.906] DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Failed Lookup Locations
+Info 2524 [11:40:16.922] Elapsed:: 16ms DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Failed Lookup Locations
+Info 2525 [11:40:17.183] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2526 [11:40:17.321] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 532 structureChanged: true Elapsed: 138ms
+Info 2527 [11:40:17.321] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 2528 [11:40:17.766] FileWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-step1/auth-step1.component.ts 2:: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-step1/auth-step1.component.ts 500 undefined Project:  WatchType: Closed Script info
+Info 2529 [11:40:17.766] Elapsed:: 0ms FileWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-step1/auth-step1.component.ts 2:: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-step1/auth-step1.component.ts 500 undefined Project:  WatchType: Closed Script info
+Info 2530 [11:40:17.766] FileWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-step1/auth-step1.component.spec.ts 2:: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-step1/auth-step1.component.spec.ts 500 undefined Project:  WatchType: Closed Script info
+Info 2531 [11:40:17.766] Elapsed:: 0ms FileWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-step1/auth-step1.component.spec.ts 2:: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-step1/auth-step1.component.spec.ts 500 undefined Project:  WatchType: Closed Script info
+Info 2532 [11:40:17.766] FileWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-layout/auth-layout.component.ts 2:: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-layout/auth-layout.component.ts 500 undefined Project:  WatchType: Closed Script info
+Info 2533 [11:40:17.766] Elapsed:: 0ms FileWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-layout/auth-layout.component.ts 2:: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-layout/auth-layout.component.ts 500 undefined Project:  WatchType: Closed Script info
+Info 2534 [11:40:17.766] FileWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-productors/auth-productors.component.spec.ts 2:: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-productors/auth-productors.component.spec.ts 500 undefined Project:  WatchType: Closed Script info
+Info 2535 [11:40:17.766] Elapsed:: 0ms FileWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-productors/auth-productors.component.spec.ts 2:: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-productors/auth-productors.component.spec.ts 500 undefined Project:  WatchType: Closed Script info
+Info 2536 [11:40:17.766] FileWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-productors/auth-productors.component.ts 2:: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-productors/auth-productors.component.ts 500 undefined Project:  WatchType: Closed Script info
+Info 2537 [11:40:17.766] Elapsed:: 0ms FileWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-productors/auth-productors.component.ts 2:: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-productors/auth-productors.component.ts 500 undefined Project:  WatchType: Closed Script info
+Info 2538 [11:40:19.423] Before ensureProjectForOpenFiles:
+Info 2539 [11:40:19.427] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 2540 [11:40:20.214] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 787ms
+Info 2541 [11:40:20.214] Project '/dev/null/inferredProject1*' (Inferred)
+Info 2542 [11:40:20.214] 	Files (168)
+
+Info 2543 [11:40:20.214] -----------------------------------------------
+Info 2544 [11:40:20.216] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 2545 [11:40:20.625] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 1 structureChanged: true Elapsed: 409ms
+Info 2546 [11:40:20.625] Project '/dev/null/inferredProject2*' (Inferred)
+Info 2547 [11:40:20.625] 	Files (285)
+
+Info 2548 [11:40:20.625] -----------------------------------------------
+Info 2549 [11:40:20.627] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 2550 [11:40:20.748] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 1 structureChanged: true Elapsed: 121ms
+Info 2551 [11:40:20.748] Project '/dev/null/inferredProject3*' (Inferred)
+Info 2552 [11:40:20.748] 	Files (168)
+
+Info 2553 [11:40:20.748] -----------------------------------------------
+Info 2554 [11:40:20.749] After ensureProjectForOpenFiles:
+Info 2555 [11:40:20.749] got projects updated in background, updating diagnostics for /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/app.component.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-routing.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/app.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/app-routing.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-layout/auth-layout.component.spec.ts
+Info 2556 [11:40:53.17] DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Wild card directory
+Info 2557 [11:40:53.18] Elapsed:: 1ms DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Wild card directory
+Info 2558 [11:40:53.18] DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules 1 undefined Project:  WatchType: node_modules for closed script infos in them
+Info 2559 [11:40:53.21] Elapsed:: 3ms DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules 1 undefined Project:  WatchType: node_modules for closed script infos in them
+Info 2560 [11:40:53.21] DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Failed Lookup Locations
+Info 2561 [11:40:53.28] Elapsed:: 7ms DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Failed Lookup Locations
+Info 2562 [11:40:53.28] DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 2563 [11:40:53.29] Elapsed:: 1ms DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 2564 [11:40:53.29] DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules 1 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 2565 [11:40:53.32] Elapsed:: 3ms DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules 1 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 2566 [11:40:53.32] DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 2567 [11:40:53.33] Elapsed:: 1ms DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 2568 [11:40:53.294] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2569 [11:40:54.15] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 533 structureChanged: true Elapsed: 721ms
+Info 2570 [11:40:54.15] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 2571 [11:40:54.16] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 2572 [11:40:54.135] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: true Elapsed: 119ms
+Info 2573 [11:40:54.135] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 2574 [11:40:54.136] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 2575 [11:40:54.533] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 2 structureChanged: true Elapsed: 397ms
+Info 2576 [11:40:54.533] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 2577 [11:40:54.534] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 2578 [11:40:54.712] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 2 structureChanged: true Elapsed: 178ms
+Info 2579 [11:40:54.712] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 2580 [11:40:55.534] Before ensureProjectForOpenFiles:
+Info 2581 [11:40:55.534] After ensureProjectForOpenFiles:
+Info 2582 [11:40:55.534] got projects updated in background, updating diagnostics for /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/app.component.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-routing.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/app.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/app-routing.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-layout/auth-layout.component.spec.ts
+Info 2583 [11:40:56.272] DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Wild card directory
+Info 2584 [11:40:56.272] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Wild card directory
+Info 2585 [11:40:56.272] DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules 1 undefined Project:  WatchType: node_modules for closed script infos in them
+Info 2586 [11:40:56.275] Elapsed:: 3ms DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules 1 undefined Project:  WatchType: node_modules for closed script infos in them
+Info 2587 [11:40:56.275] DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Failed Lookup Locations
+Info 2588 [11:40:56.282] Elapsed:: 7ms DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules 1 undefined Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json WatchType: Failed Lookup Locations
+Info 2589 [11:40:56.282] DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 2590 [11:40:56.282] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 2591 [11:40:56.282] DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules 1 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 2592 [11:40:56.284] Elapsed:: 2ms DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules 1 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 2593 [11:40:56.284] DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 2594 [11:40:56.284] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules :: WatchInfo: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 2595 [11:40:56.538] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2596 [11:40:57.196] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 534 structureChanged: true Elapsed: 658ms
+Info 2597 [11:40:57.196] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 2598 [11:40:57.197] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 2599 [11:40:57.325] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: true Elapsed: 128ms
+Info 2600 [11:40:57.325] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 2601 [11:40:57.326] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 2602 [11:40:57.692] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 3 structureChanged: true Elapsed: 365ms
+Info 2603 [11:40:57.692] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 2604 [11:40:57.692] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 2605 [11:40:57.821] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 3 structureChanged: true Elapsed: 129ms
+Info 2606 [11:40:57.821] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 2607 [11:40:58.785] Before ensureProjectForOpenFiles:
+Info 2608 [11:40:58.785] After ensureProjectForOpenFiles:
+Info 2609 [11:40:58.785] got projects updated in background, updating diagnostics for /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/app.component.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-routing.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/app.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/app-routing.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth.module.ts,/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/auth/auth-layout/auth-layout.component.spec.ts
+Info 2610 [11:41:16.274] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2611 [11:41:16.350] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 535 structureChanged: true Elapsed: 76ms
+Info 2612 [11:41:16.350] Project '/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json' (Configured)
+Info 2613 [11:41:16.350] 	Files (457)
+
+Info 2614 [11:41:16.350] -----------------------------------------------
+Err 2615  [11:41:20.145] Exception on executing command {"command":"getCodeFixes","seq":4863,"type":"request","arguments":{"file":"/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/app.module.ts","startLine":7,"startOffset":51,"endLine":7,"endOffset":51,"errorCodes":[2307]}}:
+
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+
+    Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+        at Object.cast (/usr/lib/node_modules/typescript/lib/tsserver.js:1387:25)
+        at tryGetImportedPackageName (/usr/lib/node_modules/typescript/lib/tsserver.js:131135:33)
+        at Object.getCodeActions (/usr/lib/node_modules/typescript/lib/tsserver.js:131103:35)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:127392:77
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:127392:23)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:139204:35
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getCodeFixesAtPosition (/usr/lib/node_modules/typescript/lib/tsserver.js:139202:23)
+        at IOSession.Session.getCodeFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:149303:64)
+        at Session.handlers.ts.createMapFromTemplate._a.<computed> (/usr/lib/node_modules/typescript/lib/tsserver.js:148040:61)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:149553:88
+        at IOSession.Session.executeWithRequestId (/usr/lib/node_modules/typescript/lib/tsserver.js:149544:28)
+        at IOSession.Session.executeCommand (/usr/lib/node_modules/typescript/lib/tsserver.js:149553:33)
+        at IOSession.Session.onMessage (/usr/lib/node_modules/typescript/lib/tsserver.js:149577:35)
+        at Interface.<anonymous> (/usr/lib/node_modules/typescript/lib/tsserver.js:150893:27)
+        at Interface.emit (events.js:314:20)
+        at Interface._onLine (readline.js:337:10)
+        at Interface._normalWrite (readline.js:482:12)
+        at Socket.ondata (readline.js:194:10)
+        at Socket.emit (events.js:314:20)
+        at addChunk (_stream_readable.js:304:12)
+        at readableAddChunk (_stream_readable.js:280:9)
+        at Socket.Readable.push (_stream_readable.js:219:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+Err 2616  [11:41:20.445] Exception on executing command {"command":"getCodeFixes","seq":4865,"type":"request","arguments":{"file":"/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/app.module.ts","startLine":7,"startOffset":51,"endLine":7,"endOffset":51,"errorCodes":[2307]}}:
+
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+
+    Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+        at Object.cast (/usr/lib/node_modules/typescript/lib/tsserver.js:1387:25)
+        at tryGetImportedPackageName (/usr/lib/node_modules/typescript/lib/tsserver.js:131135:33)
+        at Object.getCodeActions (/usr/lib/node_modules/typescript/lib/tsserver.js:131103:35)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:127392:77
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:127392:23)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:139204:35
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getCodeFixesAtPosition (/usr/lib/node_modules/typescript/lib/tsserver.js:139202:23)
+        at IOSession.Session.getCodeFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:149303:64)
+        at Session.handlers.ts.createMapFromTemplate._a.<computed> (/usr/lib/node_modules/typescript/lib/tsserver.js:148040:61)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:149553:88
+        at IOSession.Session.executeWithRequestId (/usr/lib/node_modules/typescript/lib/tsserver.js:149544:28)
+        at IOSession.Session.executeCommand (/usr/lib/node_modules/typescript/lib/tsserver.js:149553:33)
+        at IOSession.Session.onMessage (/usr/lib/node_modules/typescript/lib/tsserver.js:149577:35)
+        at Interface.<anonymous> (/usr/lib/node_modules/typescript/lib/tsserver.js:150893:27)
+        at Interface.emit (events.js:314:20)
+        at Interface._onLine (readline.js:337:10)
+        at Interface._normalWrite (readline.js:482:12)
+        at Socket.ondata (readline.js:194:10)
+        at Socket.emit (events.js:314:20)
+        at addChunk (_stream_readable.js:304:12)
+        at readableAddChunk (_stream_readable.js:280:9)
+        at Socket.Readable.push (_stream_readable.js:219:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+Err 2617  [11:41:20.701] Exception on executing command {"command":"getCodeFixes","seq":4867,"type":"request","arguments":{"file":"/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/app.module.ts","startLine":7,"startOffset":50,"endLine":7,"endOffset":50,"errorCodes":[2307]}}:
+
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+
+    Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+        at Object.cast (/usr/lib/node_modules/typescript/lib/tsserver.js:1387:25)
+        at tryGetImportedPackageName (/usr/lib/node_modules/typescript/lib/tsserver.js:131135:33)
+        at Object.getCodeActions (/usr/lib/node_modules/typescript/lib/tsserver.js:131103:35)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:127392:77
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:127392:23)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:139204:35
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getCodeFixesAtPosition (/usr/lib/node_modules/typescript/lib/tsserver.js:139202:23)
+        at IOSession.Session.getCodeFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:149303:64)
+        at Session.handlers.ts.createMapFromTemplate._a.<computed> (/usr/lib/node_modules/typescript/lib/tsserver.js:148040:61)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:149553:88
+        at IOSession.Session.executeWithRequestId (/usr/lib/node_modules/typescript/lib/tsserver.js:149544:28)
+        at IOSession.Session.executeCommand (/usr/lib/node_modules/typescript/lib/tsserver.js:149553:33)
+        at IOSession.Session.onMessage (/usr/lib/node_modules/typescript/lib/tsserver.js:149577:35)
+        at Interface.<anonymous> (/usr/lib/node_modules/typescript/lib/tsserver.js:150893:27)
+        at Interface.emit (events.js:314:20)
+        at Interface._onLine (readline.js:337:10)
+        at Interface._normalWrite (readline.js:482:12)
+        at Socket.ondata (readline.js:194:10)
+        at Socket.emit (events.js:314:20)
+        at addChunk (_stream_readable.js:304:12)
+        at readableAddChunk (_stream_readable.js:280:9)
+        at Socket.Readable.push (_stream_readable.js:219:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+Err 2618  [11:41:21.2] Exception on executing command {"command":"getCodeFixes","seq":4871,"type":"request","arguments":{"file":"/home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/app.module.ts","startLine":7,"startOffset":50,"endLine":7,"endOffset":50,"errorCodes":[2307]}}:
+
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+
+    Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+        at Object.cast (/usr/lib/node_modules/typescript/lib/tsserver.js:1387:25)
+        at tryGetImportedPackageName (/usr/lib/node_modules/typescript/lib/tsserver.js:131135:33)
+        at Object.getCodeActions (/usr/lib/node_modules/typescript/lib/tsserver.js:131103:35)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:127392:77
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:127392:23)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:139204:35
+        at Object.flatMap (/usr/lib/node_modules/typescript/lib/tsserver.js:465:25)
+        at Object.getCodeFixesAtPosition (/usr/lib/node_modules/typescript/lib/tsserver.js:139202:23)
+        at IOSession.Session.getCodeFixes (/usr/lib/node_modules/typescript/lib/tsserver.js:149303:64)
+        at Session.handlers.ts.createMapFromTemplate._a.<computed> (/usr/lib/node_modules/typescript/lib/tsserver.js:148040:61)
+        at /usr/lib/node_modules/typescript/lib/tsserver.js:149553:88
+        at IOSession.Session.executeWithRequestId (/usr/lib/node_modules/typescript/lib/tsserver.js:149544:28)
+        at IOSession.Session.executeCommand (/usr/lib/node_modules/typescript/lib/tsserver.js:149553:33)
+        at IOSession.Session.onMessage (/usr/lib/node_modules/typescript/lib/tsserver.js:149577:35)
+        at Interface.<anonymous> (/usr/lib/node_modules/typescript/lib/tsserver.js:150893:27)
+        at Interface.emit (events.js:314:20)
+        at Interface._onLine (readline.js:337:10)
+        at Interface._normalWrite (readline.js:482:12)
+        at Socket.ondata (readline.js:194:10)
+        at Socket.emit (events.js:314:20)
+        at addChunk (_stream_readable.js:304:12)
+        at readableAddChunk (_stream_readable.js:280:9)
+        at Socket.Readable.push (_stream_readable.js:219:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+Info 2619 [11:41:22.776] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2620 [11:41:22.838] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 536 structureChanged: true Elapsed: 62ms
+Info 2621 [11:41:22.838] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 2622 [11:41:23.535] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2623 [11:41:23.586] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 537 structureChanged: true Elapsed: 51ms
+Info 2624 [11:41:23.586] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 2625 [11:41:23.821] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2626 [11:41:23.879] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 538 structureChanged: true Elapsed: 58ms
+Info 2627 [11:41:23.880] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 2628 [11:41:24.499] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2629 [11:41:24.550] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 539 structureChanged: true Elapsed: 51ms
+Info 2630 [11:41:24.550] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 2631 [11:41:25.68] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2632 [11:41:25.117] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 540 structureChanged: true Elapsed: 49ms
+Info 2633 [11:41:25.117] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 2634 [11:41:28.708] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2635 [11:41:28.755] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 541 structureChanged: true Elapsed: 47ms
+Info 2636 [11:41:28.755] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 2637 [11:41:29.264] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2638 [11:41:29.312] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 542 structureChanged: true Elapsed: 48ms
+Info 2639 [11:41:29.313] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 2640 [11:42:45.667] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2641 [11:42:45.725] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 543 structureChanged: true Elapsed: 58ms
+Info 2642 [11:42:45.725] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 2643 [11:43:53.865] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2644 [11:43:53.922] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 544 structureChanged: true Elapsed: 57ms
+Info 2645 [11:43:53.922] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 2646 [11:43:56.135] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2647 [11:43:56.183] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 545 structureChanged: true Elapsed: 48ms
+Info 2648 [11:43:56.183] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 2649 [11:43:56.183] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2650 [11:43:56.224] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 546 structureChanged: true Elapsed: 41ms
+Info 2651 [11:43:56.224] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 2652 [11:49:13.110] Search path: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth
+Info 2653 [11:49:13.111] For info: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth.module.ts :: Config file name: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2654 [11:49:39.913] Search path: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-layout
+Info 2655 [11:49:39.914] For info: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-layout/auth-layout.component.ts :: Config file name: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2656 [11:50:45.6] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2657 [11:50:45.23] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 547 structureChanged: false Elapsed: 17ms
+Info 2658 [11:50:45.23] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2659 [11:50:45.56] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2660 [11:50:45.71] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 548 structureChanged: false Elapsed: 14ms
+Info 2661 [11:50:45.71] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2662 [11:50:48.977] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2663 [11:50:49.40] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 549 structureChanged: true Elapsed: 63ms
+Info 2664 [11:50:49.40] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 2665 [11:50:50.369] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2666 [11:50:50.384] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 550 structureChanged: false Elapsed: 15ms
+Info 2667 [11:50:50.384] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2668 [11:51:23.656] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2669 [11:51:23.715] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 551 structureChanged: true Elapsed: 59ms
+Info 2670 [11:51:23.715] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 2671 [11:51:26.53] forEachExternalModuleToImportFrom: filtered out 26 modules by package.json contents
+Info 2672 [11:51:26.425] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2673 [11:51:26.446] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 552 structureChanged: false Elapsed: 20ms
+Info 2674 [11:51:26.446] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2675 [12:1:19.989] Search path: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth
+Info 2676 [12:1:19.989] For info: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/src/app/auth/auth-routing.module.ts :: Config file name: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2677 [12:1:35.126] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2678 [12:1:35.145] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 553 structureChanged: false Elapsed: 19ms
+Info 2679 [12:1:35.145] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2680 [12:1:36.491] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2681 [12:1:36.515] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 554 structureChanged: false Elapsed: 24ms
+Info 2682 [12:1:36.515] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2683 [12:1:37.627] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2684 [12:1:37.648] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 555 structureChanged: false Elapsed: 21ms
+Info 2685 [12:1:37.648] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2686 [12:1:37.685] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2687 [12:1:37.699] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 556 structureChanged: false Elapsed: 14ms
+Info 2688 [12:1:37.699] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2689 [12:1:38.565] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2690 [12:1:38.584] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 557 structureChanged: false Elapsed: 19ms
+Info 2691 [12:1:38.584] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2692 [12:1:39.56] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2693 [12:1:39.81] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 558 structureChanged: false Elapsed: 25ms
+Info 2694 [12:1:39.82] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2695 [12:1:39.82] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2696 [12:1:39.99] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 559 structureChanged: false Elapsed: 17ms
+Info 2697 [12:1:39.99] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2698 [12:1:39.284] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2699 [12:1:39.301] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 560 structureChanged: false Elapsed: 17ms
+Info 2700 [12:1:39.301] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2701 [12:1:40.561] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2702 [12:1:40.578] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 561 structureChanged: false Elapsed: 16ms
+Info 2703 [12:1:40.578] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2704 [12:1:41.80] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2705 [12:1:41.100] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 562 structureChanged: false Elapsed: 20ms
+Info 2706 [12:1:41.100] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2707 [12:1:41.318] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2708 [12:1:41.339] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 563 structureChanged: false Elapsed: 21ms
+Info 2709 [12:1:41.339] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2710 [12:1:43.32] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2711 [12:1:43.50] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 564 structureChanged: false Elapsed: 18ms
+Info 2712 [12:1:43.50] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2713 [12:1:43.760] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2714 [12:1:43.779] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 565 structureChanged: false Elapsed: 18ms
+Info 2715 [12:1:43.779] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2716 [12:1:43.780] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2717 [12:1:43.792] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 566 structureChanged: false Elapsed: 12ms
+Info 2718 [12:1:43.792] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2719 [12:1:45.521] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2720 [12:1:45.535] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 567 structureChanged: false Elapsed: 14ms
+Info 2721 [12:1:45.535] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2722 [12:1:46.127] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2723 [12:1:46.152] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 568 structureChanged: false Elapsed: 25ms
+Info 2724 [12:1:46.152] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2725 [12:1:46.849] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2726 [12:1:46.874] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 569 structureChanged: false Elapsed: 25ms
+Info 2727 [12:1:46.874] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2728 [12:1:47.209] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2729 [12:1:47.230] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 570 structureChanged: false Elapsed: 21ms
+Info 2730 [12:1:47.230] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2731 [12:1:47.746] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2732 [12:1:47.768] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 571 structureChanged: false Elapsed: 22ms
+Info 2733 [12:1:47.768] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2734 [12:1:48.939] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2735 [12:1:48.955] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 572 structureChanged: false Elapsed: 16ms
+Info 2736 [12:1:48.955] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2737 [12:1:49.434] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2738 [12:1:49.452] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 573 structureChanged: false Elapsed: 18ms
+Info 2739 [12:1:49.452] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2740 [12:1:50.114] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2741 [12:1:50.128] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 574 structureChanged: false Elapsed: 13ms
+Info 2742 [12:1:50.128] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2743 [12:1:50.448] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2744 [12:1:50.466] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 575 structureChanged: false Elapsed: 18ms
+Info 2745 [12:1:50.466] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2746 [12:1:51.188] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2747 [12:1:51.207] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 576 structureChanged: false Elapsed: 19ms
+Info 2748 [12:1:51.207] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2749 [12:1:51.844] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2750 [12:1:51.857] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 577 structureChanged: false Elapsed: 13ms
+Info 2751 [12:1:51.857] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2752 [12:1:52.346] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2753 [12:1:52.364] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 578 structureChanged: false Elapsed: 18ms
+Info 2754 [12:1:52.364] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2755 [12:1:53.589] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2756 [12:1:53.610] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 579 structureChanged: false Elapsed: 21ms
+Info 2757 [12:1:53.610] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2758 [12:1:54.678] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2759 [12:1:54.697] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 580 structureChanged: false Elapsed: 19ms
+Info 2760 [12:1:54.697] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2761 [12:1:55.217] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2762 [12:1:55.238] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 581 structureChanged: false Elapsed: 21ms
+Info 2763 [12:1:55.238] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2764 [12:1:55.714] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2765 [12:1:55.737] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 582 structureChanged: false Elapsed: 23ms
+Info 2766 [12:1:55.737] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2767 [12:1:57.390] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2768 [12:1:57.413] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 583 structureChanged: false Elapsed: 23ms
+Info 2769 [12:1:57.413] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2770 [12:1:57.828] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2771 [12:1:57.845] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 584 structureChanged: false Elapsed: 16ms
+Info 2772 [12:1:57.845] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2773 [12:1:58.752] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2774 [12:1:58.771] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 585 structureChanged: false Elapsed: 19ms
+Info 2775 [12:1:58.771] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2776 [12:1:59.888] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2777 [12:1:59.906] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 586 structureChanged: false Elapsed: 18ms
+Info 2778 [12:1:59.906] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2779 [12:2:1.754] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2780 [12:2:1.776] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 587 structureChanged: false Elapsed: 22ms
+Info 2781 [12:2:1.776] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2782 [12:2:1.778] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2783 [12:2:1.789] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 588 structureChanged: false Elapsed: 11ms
+Info 2784 [12:2:1.789] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2785 [12:2:2.464] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2786 [12:2:2.484] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 589 structureChanged: false Elapsed: 20ms
+Info 2787 [12:2:2.484] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2788 [12:2:2.495] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2789 [12:2:2.510] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 590 structureChanged: false Elapsed: 15ms
+Info 2790 [12:2:2.510] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2791 [12:2:2.879] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2792 [12:2:2.895] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 591 structureChanged: false Elapsed: 16ms
+Info 2793 [12:2:2.895] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2794 [12:2:3.556] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2795 [12:2:3.578] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 592 structureChanged: false Elapsed: 22ms
+Info 2796 [12:2:3.578] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2797 [12:2:5.534] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2798 [12:2:5.550] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 593 structureChanged: false Elapsed: 16ms
+Info 2799 [12:2:5.550] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2800 [12:2:7.120] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2801 [12:2:7.135] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 594 structureChanged: false Elapsed: 15ms
+Info 2802 [12:2:7.135] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2803 [12:2:8.261] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2804 [12:2:8.279] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 595 structureChanged: false Elapsed: 18ms
+Info 2805 [12:2:8.279] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2806 [12:2:21.543] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2807 [12:2:21.563] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 596 structureChanged: false Elapsed: 19ms
+Info 2808 [12:2:21.563] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2809 [12:2:22.152] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2810 [12:2:22.171] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 597 structureChanged: false Elapsed: 19ms
+Info 2811 [12:2:22.171] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2812 [12:2:23.632] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2813 [12:2:23.651] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 598 structureChanged: false Elapsed: 19ms
+Info 2814 [12:2:23.651] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2815 [12:2:24.717] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2816 [12:2:24.730] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 599 structureChanged: false Elapsed: 13ms
+Info 2817 [12:2:24.730] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2818 [12:2:24.745] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2819 [12:2:24.757] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 600 structureChanged: false Elapsed: 12ms
+Info 2820 [12:2:24.757] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2821 [12:2:25.94] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2822 [12:2:25.111] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 601 structureChanged: false Elapsed: 17ms
+Info 2823 [12:2:25.111] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2824 [12:2:25.323] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2825 [12:2:25.354] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 602 structureChanged: false Elapsed: 31ms
+Info 2826 [12:2:25.354] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2827 [12:2:25.663] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2828 [12:2:25.677] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 603 structureChanged: false Elapsed: 14ms
+Info 2829 [12:2:25.677] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2830 [12:2:27.735] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2831 [12:2:27.751] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 604 structureChanged: false Elapsed: 16ms
+Info 2832 [12:2:27.751] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2833 [12:2:27.751] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2834 [12:2:27.761] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 605 structureChanged: false Elapsed: 10ms
+Info 2835 [12:2:27.761] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2836 [12:2:28.941] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2837 [12:2:28.963] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 606 structureChanged: false Elapsed: 22ms
+Info 2838 [12:2:28.963] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2839 [12:2:29.725] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2840 [12:2:29.750] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 607 structureChanged: false Elapsed: 24ms
+Info 2841 [12:2:29.750] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2842 [12:2:29.775] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2843 [12:2:29.788] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 608 structureChanged: false Elapsed: 13ms
+Info 2844 [12:2:29.788] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2845 [12:2:30.248] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2846 [12:2:30.274] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 609 structureChanged: false Elapsed: 26ms
+Info 2847 [12:2:30.274] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2848 [12:2:30.972] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2849 [12:2:30.989] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 610 structureChanged: false Elapsed: 17ms
+Info 2850 [12:2:30.989] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2851 [12:2:30.990] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2852 [12:2:31.0] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 611 structureChanged: false Elapsed: 10ms
+Info 2853 [12:2:31.1] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2854 [12:2:31.282] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2855 [12:2:31.297] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 612 structureChanged: false Elapsed: 14ms
+Info 2856 [12:2:31.297] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2857 [12:2:31.736] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2858 [12:2:31.751] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 613 structureChanged: false Elapsed: 15ms
+Info 2859 [12:2:31.751] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2860 [12:2:31.753] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2861 [12:2:31.763] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 614 structureChanged: false Elapsed: 10ms
+Info 2862 [12:2:31.763] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2863 [12:2:33.104] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2864 [12:2:33.126] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 615 structureChanged: false Elapsed: 22ms
+Info 2865 [12:2:33.126] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2866 [12:2:33.128] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2867 [12:2:33.139] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 616 structureChanged: false Elapsed: 11ms
+Info 2868 [12:2:33.139] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2869 [12:2:33.961] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2870 [12:2:33.979] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 617 structureChanged: false Elapsed: 18ms
+Info 2871 [12:2:33.979] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2872 [12:2:34.518] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2873 [12:2:34.537] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 618 structureChanged: false Elapsed: 19ms
+Info 2874 [12:2:34.537] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2875 [12:2:37.232] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2876 [12:2:37.252] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 619 structureChanged: false Elapsed: 20ms
+Info 2877 [12:2:37.252] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2878 [12:2:38.8] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2879 [12:2:38.24] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 620 structureChanged: false Elapsed: 16ms
+Info 2880 [12:2:38.24] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2881 [12:3:3.193] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2882 [12:3:3.211] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 621 structureChanged: false Elapsed: 18ms
+Info 2883 [12:3:3.211] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2884 [12:3:3.212] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2885 [12:3:3.230] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 622 structureChanged: false Elapsed: 18ms
+Info 2886 [12:3:3.230] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2887 [12:3:4.420] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2888 [12:3:4.441] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 623 structureChanged: false Elapsed: 21ms
+Info 2889 [12:3:4.441] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2890 [12:3:4.475] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2891 [12:3:4.495] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 624 structureChanged: false Elapsed: 20ms
+Info 2892 [12:3:4.495] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2893 [12:3:4.682] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2894 [12:3:4.701] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 625 structureChanged: false Elapsed: 19ms
+Info 2895 [12:3:4.701] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2896 [12:3:5.708] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2897 [12:3:5.725] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 626 structureChanged: false Elapsed: 17ms
+Info 2898 [12:3:5.725] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2899 [12:3:5.725] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2900 [12:3:5.735] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 627 structureChanged: false Elapsed: 10ms
+Info 2901 [12:3:5.735] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2902 [12:3:6.30] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2903 [12:3:6.48] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 628 structureChanged: false Elapsed: 18ms
+Info 2904 [12:3:6.48] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2905 [12:3:6.602] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2906 [12:3:6.620] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 629 structureChanged: false Elapsed: 17ms
+Info 2907 [12:3:6.620] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2908 [12:3:6.849] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2909 [12:3:6.867] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 630 structureChanged: false Elapsed: 18ms
+Info 2910 [12:3:6.867] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2911 [12:3:7.549] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2912 [12:3:7.563] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 631 structureChanged: false Elapsed: 14ms
+Info 2913 [12:3:7.563] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2914 [12:3:8.541] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2915 [12:3:8.561] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 632 structureChanged: false Elapsed: 20ms
+Info 2916 [12:3:8.561] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2917 [12:3:8.563] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2918 [12:3:8.582] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 633 structureChanged: false Elapsed: 19ms
+Info 2919 [12:3:8.582] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2920 [12:3:10.510] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2921 [12:3:10.526] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 634 structureChanged: false Elapsed: 15ms
+Info 2922 [12:3:10.526] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2923 [12:3:10.766] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2924 [12:3:10.785] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 635 structureChanged: false Elapsed: 19ms
+Info 2925 [12:3:10.785] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2926 [12:3:11.532] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2927 [12:3:11.558] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 636 structureChanged: false Elapsed: 26ms
+Info 2928 [12:3:11.558] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2929 [12:3:11.558] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2930 [12:3:11.571] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 637 structureChanged: false Elapsed: 13ms
+Info 2931 [12:3:11.571] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2932 [12:3:11.849] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2933 [12:3:11.865] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 638 structureChanged: false Elapsed: 15ms
+Info 2934 [12:3:11.865] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2935 [12:3:12.662] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2936 [12:3:12.680] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 639 structureChanged: false Elapsed: 17ms
+Info 2937 [12:3:12.680] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2938 [12:3:12.986] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2939 [12:3:13.2] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 640 structureChanged: false Elapsed: 16ms
+Info 2940 [12:3:13.2] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2941 [12:3:13.317] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2942 [12:3:13.333] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 641 structureChanged: false Elapsed: 16ms
+Info 2943 [12:3:13.333] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2944 [12:3:13.990] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2945 [12:3:14.4] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 642 structureChanged: false Elapsed: 14ms
+Info 2946 [12:3:14.5] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2947 [12:3:14.269] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2948 [12:3:14.290] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 643 structureChanged: false Elapsed: 21ms
+Info 2949 [12:3:14.290] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2950 [12:3:14.307] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2951 [12:3:14.322] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 644 structureChanged: false Elapsed: 15ms
+Info 2952 [12:3:14.322] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2953 [12:3:14.517] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2954 [12:3:14.528] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 645 structureChanged: false Elapsed: 11ms
+Info 2955 [12:3:14.528] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2956 [12:3:14.797] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2957 [12:3:14.814] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 646 structureChanged: false Elapsed: 17ms
+Info 2958 [12:3:14.814] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2959 [12:3:15.404] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2960 [12:3:15.423] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 647 structureChanged: false Elapsed: 19ms
+Info 2961 [12:3:15.423] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2962 [12:3:15.728] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2963 [12:3:15.744] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 648 structureChanged: false Elapsed: 16ms
+Info 2964 [12:3:15.744] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2965 [12:3:16.367] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2966 [12:3:16.384] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 649 structureChanged: false Elapsed: 17ms
+Info 2967 [12:3:16.384] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2968 [12:3:16.710] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2969 [12:3:16.722] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 650 structureChanged: false Elapsed: 12ms
+Info 2970 [12:3:16.722] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2971 [12:3:17.125] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2972 [12:3:17.138] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 651 structureChanged: false Elapsed: 13ms
+Info 2973 [12:3:17.138] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2974 [12:3:18.651] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2975 [12:3:18.671] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 652 structureChanged: false Elapsed: 20ms
+Info 2976 [12:3:18.672] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2977 [12:3:19.219] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2978 [12:3:19.238] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 653 structureChanged: false Elapsed: 18ms
+Info 2979 [12:3:19.238] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2980 [12:3:19.899] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2981 [12:3:19.918] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 654 structureChanged: false Elapsed: 19ms
+Info 2982 [12:3:19.918] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2983 [12:3:19.918] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2984 [12:3:19.928] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 655 structureChanged: false Elapsed: 10ms
+Info 2985 [12:3:19.928] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2986 [12:3:20.312] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2987 [12:3:20.333] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 656 structureChanged: false Elapsed: 21ms
+Info 2988 [12:3:20.333] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2989 [12:3:20.333] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2990 [12:3:20.351] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 657 structureChanged: false Elapsed: 18ms
+Info 2991 [12:3:20.351] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2992 [12:3:20.873] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2993 [12:3:20.894] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 658 structureChanged: false Elapsed: 20ms
+Info 2994 [12:3:20.894] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2995 [12:3:20.894] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2996 [12:3:20.904] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 659 structureChanged: false Elapsed: 10ms
+Info 2997 [12:3:20.904] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 2998 [12:3:21.799] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 2999 [12:3:21.818] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 660 structureChanged: false Elapsed: 19ms
+Info 3000 [12:3:21.818] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 3001 [12:3:22.670] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 3002 [12:3:22.689] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 661 structureChanged: false Elapsed: 19ms
+Info 3003 [12:3:22.689] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 3004 [12:3:23.115] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 3005 [12:3:23.133] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 662 structureChanged: false Elapsed: 18ms
+Info 3006 [12:3:23.133] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 3007 [12:3:23.134] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 3008 [12:3:23.143] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 663 structureChanged: false Elapsed: 9ms
+Info 3009 [12:3:23.143] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 3010 [12:3:23.946] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 3011 [12:3:23.963] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 664 structureChanged: false Elapsed: 17ms
+Info 3012 [12:3:23.963] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 3013 [12:3:24.223] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 3014 [12:3:24.241] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 665 structureChanged: false Elapsed: 18ms
+Info 3015 [12:3:24.241] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 3016 [12:3:24.755] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 3017 [12:3:24.773] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 666 structureChanged: false Elapsed: 18ms
+Info 3018 [12:3:24.773] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 3019 [12:3:25.248] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 3020 [12:3:25.269] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 667 structureChanged: false Elapsed: 21ms
+Info 3021 [12:3:25.269] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 3022 [12:3:25.874] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 3023 [12:3:25.895] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 668 structureChanged: false Elapsed: 21ms
+Info 3024 [12:3:25.895] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 3025 [12:3:25.895] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 3026 [12:3:25.908] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 669 structureChanged: false Elapsed: 13ms
+Info 3027 [12:3:25.908] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 3028 [12:3:26.329] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 3029 [12:3:26.353] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 670 structureChanged: false Elapsed: 24ms
+Info 3030 [12:3:26.353] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 3031 [12:6:34.659] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 3032 [12:6:34.683] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 671 structureChanged: false Elapsed: 24ms
+Info 3033 [12:6:34.683] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 3034 [12:6:35.495] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 3035 [12:6:35.517] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 672 structureChanged: false Elapsed: 22ms
+Info 3036 [12:6:35.517] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 3037 [12:6:35.891] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 3038 [12:6:35.912] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 673 structureChanged: false Elapsed: 21ms
+Info 3039 [12:6:35.912] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 3040 [12:6:36.261] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 3041 [12:6:36.277] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 674 structureChanged: false Elapsed: 16ms
+Info 3042 [12:6:36.277] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 3043 [12:8:16.624] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json
+Info 3044 [12:8:16.640] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/SBD1Project/SBD1-Fragrances-Dashboard-Client/tsconfig.json Version: 675 structureChanged: false Elapsed: 16ms
+Info 3045 [12:8:16.640] Different program with same set of files:: oldProgram.structureIsReused:: 2
