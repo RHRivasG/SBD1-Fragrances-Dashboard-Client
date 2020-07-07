@@ -4,14 +4,19 @@ import { AuthLayoutComponent } from './auth-layout/auth-layout.component';
 
 const routes: Routes = [
   {
-    path: 'auth',
+    path: 'auth/:step',
     component: AuthLayoutComponent,
   },
   {
     path: '',
     pathMatch: 'full',
-    redirectTo: '/auth'
+    redirectTo: '/auth/step?step=type'
   },
+  {
+    path: 'auth',
+    pathMatch: 'full',
+    redirectTo: '/auth/step?step=type'
+  }
 ];
 
 @NgModule({

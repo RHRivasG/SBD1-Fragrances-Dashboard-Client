@@ -1,0 +1,22 @@
+
+h2 {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+.mat-toolbar {
+    z-index: 2;
+    background-color: #182820;
+    position: relative;
+}
+
+.layout-body {
+    z-index: -1 !important;
+    height: 100%;
+    background-color: #c0c8d8;
+}
+
+mat-horizontal-stepper {
+    background-color: #c0c8d8;
+}
