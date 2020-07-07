@@ -1,0 +1,38 @@
+<mat-grid-list cols="2" rowHeight="10:8">
+  <mat-grid-tile>
+    <mat-card
+      (mouseenter)="isProductorSelected = true"
+      (mouseleave)="isProductorSelected = false"
+      [class.mat-elevation-z24]="isProductorSelected"
+      [class.mat-elevation-z1]="!isProductorSelected"
+      [@un-selected]="isProductorSelected && !isProviderSelected ? 'selected' : 'unselected'"
+      >
+      <mat-card-header>
+        <mat-card-title>Empresa Proveedora</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <img mat-card-image src="https://image.flaticon.com/icons/svg/1486/1486187.svg"/>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+
+  <mat-grid-tile>
+    <mat-card
+      (mouseenter)="isProviderSelected = true"
+      (mouseleave)="isProviderSelected = false"
+      [class.mat-elevation-z24]="isProviderSelected"
+      [class.mat-elevation-z1]="!isProviderSelected"
+      [@un-selected]="isProviderSelected && !isProductorSelected ? 'selected' : 'unselected'"
+      >
+      <mat-card-header>
+        <mat-card-title>Empresa Productora</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <img mat-card-image src="https://image.flaticon.com/icons/svg/273/273889.svg"/>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+
+
+
