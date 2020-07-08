@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-auth-productors',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./auth-productors.component.scss']
 })
 export class AuthProductorsComponent implements OnInit {
+
+  @Input() input : any
 
   constructor() { }
 

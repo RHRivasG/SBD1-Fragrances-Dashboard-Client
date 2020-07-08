@@ -13,21 +13,27 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
-
+import { AuthCardComponent } from './auth-card/auth-card.component';
+import { MatRippleModule } from '@angular/material/core';
+import { AuthOptionsResolver } from './resolvers/auth-options-resolver';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
-  declarations: [AuthLayoutComponent, AuthProductorsComponent, AuthTypeComponent],
+  declarations: [AuthLayoutComponent, AuthProductorsComponent, AuthTypeComponent, AuthCardComponent],
   imports: [
     CommonModule,
     MatStepperModule,
     MatCardModule,
     MatButtonModule,
     MatIconModule,
+    MatRippleModule,
     BrowserAnimationsModule,
     MatGridListModule,
     ReactiveFormsModule,
     MatToolbarModule,
+    HttpClientModule,
     AuthRoutingModule
-  ]
+  ],
+  providers: [ AuthOptionsResolver ]
 })
 export class AuthModule { }

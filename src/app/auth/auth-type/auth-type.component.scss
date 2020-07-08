@@ -1,36 +1,5 @@
-.mat-card-header {
-    justify-content: center;
-}
-
-@import '~@angular/material/theming';
-
-.mat-card-title {
-    text-align: center;
-    font-size: 24px;
-}
-
-img {
-    max-width: 275px;
-    padding-top: 5%;
-}
-
-.mat-card-content {
-    display: flex;
-    justify-content: center;
-}
-
-button {
-    font-size: 20px;
-    width: 100%;
-}
-
-.mat-card {
-    @include mat-elevation-transition;
-    
+app-auth-card {
     width: 65%;
     min-height: 200px;
     max-height: 500px;
-    cursor: pointer;
-    border-style: solid;
-    border-color: #F8A848;
 }

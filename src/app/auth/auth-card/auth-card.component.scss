@@ -1,0 +1,28 @@
+@import '~@angular/material/theming';
+
+.mat-card-header {
+    justify-content: center;
+}
+
+.mat-card-title {
+    text-align: center;
+    font-size: 23px;
+}
+
+img {
+    max-width: 275px;
+    padding-top: 5%;
+}
+
+.mat-card-content {
+    display: flex;
+    justify-content: center;
+}
+
+.mat-card {
+    @include mat-elevation-transition;
+    
+    cursor: pointer;
+    border-style: solid;
+    border-color: #F8A848;
+}

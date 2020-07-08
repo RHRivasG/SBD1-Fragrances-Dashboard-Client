@@ -7,7 +7,7 @@
       <ng-template matStepLabel>¿Que tipo de empresa desea ser?
       </ng-template>
       <h2>Seleccione el tipo de empresa</h2>
-      <app-auth-type></app-auth-type>
+      <app-auth-type (optionClicked)="navigateTo($event)"></app-auth-type>
       <form [formGroup]="typeFormGroup">
         <input type="text" required formControlName="dummyInput" hidden>
       </form>
@@ -15,7 +15,7 @@
     <mat-step>
       <ng-template matStepLabel>¿Que empresa desea ser?</ng-template>
       <ng-container *ngIf="step == 'productor'">
-        <app-auth-productors></app-auth-productors>
+        <app-auth-productors [input]="data | async"></app-auth-productors>
       </ng-container>
     </mat-step>
   </mat-horizontal-stepper>
