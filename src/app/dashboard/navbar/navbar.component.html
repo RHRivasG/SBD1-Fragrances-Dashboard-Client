@@ -7,16 +7,16 @@
     <button mat-menu-item>
       Mis productos
     </button>
-    <button mat-menu-item [matMenuTriggerFor]="vertebrates">Proveedores</button>
+    <button mat-menu-item [matMenuTriggerFor]="proveedores">Proveedores</button>
     <button mat-menu-item>Mis pedidos</button>
     <button mat-menu-item>
       Rec. de Perfumes
     </button>
   </mat-menu>
 
-  <mat-menu #vertebrates="matMenu">
-    <button mat-menu-item>Birds</button>
-    <button mat-menu-item>Mammals</button>
+  <mat-menu #proveedores="matMenu">
+    <button mat-menu-item>contratados</button>
+    <button mat-menu-item>sin contrato</button>
   </mat-menu>
 
   <button mat-button [matMenuTriggerFor]="proveedor">
