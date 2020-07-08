@@ -1,0 +1,19 @@
+<mat-card
+  (click)="proc_click()"
+  (mouseenter)="isSelected = true"
+  (mouseleave)="isSelected = false"
+  [class.mat-elevation-z24]="isSelected"
+  [class.mat-elevation-z1]="!isSelected"
+  [@un-selected]="isSelected ? 'selected' : 'unselected'"
+  matRipple
+  >
+  <mat-card-header>
+    <mat-card-title>{{ title }}</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <img mat-card-image [src]="imgSrc"/>
+  </mat-card-content>
+  <mat-card-footer>
+    
+  </mat-card-footer>
+</mat-card>

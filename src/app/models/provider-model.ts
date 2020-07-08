@@ -3,4 +3,5 @@ export interface Provider {
   name: string;
   pag_web: string;
   inf_contacto: string;
+  country: any;
 }
