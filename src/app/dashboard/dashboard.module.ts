@@ -1,7 +1,7 @@
 import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
 
-import { LayoutRoutingModule } from "./layout-routing.module";
+import { DashboardRoutingModule } from "./dashboard-routing.module";
 import { NavbarComponent } from "./navbar/navbar.component";
 import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatButtonModule } from "@angular/material/button";
@@ -14,7 +14,7 @@ import { MatMenuModule } from "@angular/material/menu";
   declarations: [NavbarComponent],
   imports: [
     CommonModule,
-    LayoutRoutingModule,
+    DashboardRoutingModule,
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
@@ -23,4 +23,4 @@ import { MatMenuModule } from "@angular/material/menu";
     MatMenuModule,
   ],
 })
-export class LayoutModule {}
+export class DashboardModule {}
