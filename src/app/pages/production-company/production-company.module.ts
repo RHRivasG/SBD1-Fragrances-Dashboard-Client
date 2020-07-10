@@ -1,14 +1,11 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
 
-import { ProductionCompanyRoutingModule } from './production-company-routing.module';
-
+import { ProductionCompanyRoutingModule } from "./production-company-routing.module";
+import { ProductionCompanyComponent } from "./production-company.component";
 
 @NgModule({
-  declarations: [],
-  imports: [
-    CommonModule,
-    ProductionCompanyRoutingModule
-  ]
+  declarations: [ProductionCompanyComponent],
+  imports: [CommonModule, ProductionCompanyRoutingModule],
 })
-export class ProductionCompanyModule { }
+export class ProductionCompanyModule {}

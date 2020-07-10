@@ -2,10 +2,11 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { ProviderCompanyRoutingModule } from './provider-company-routing.module';
+import { ProviderCompanyComponent } from './provider-company.component';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [ProviderCompanyComponent],
   imports: [
     CommonModule,
     ProviderCompanyRoutingModule
