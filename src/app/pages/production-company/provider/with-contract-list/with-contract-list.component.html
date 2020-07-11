@@ -1,4 +1,18 @@
-<br />
+<mat-grid-list cols="4" rowHeight="100px">
+  <mat-grid-tile>
+    <button mat-stroked-button>
+      <mat-icon>picture_as_pdf</mat-icon>
+      Historico evaluaciones iniciales
+    </button>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <button mat-stroked-button>
+      <mat-icon>picture_as_pdf</mat-icon>
+      Historico evaluaciones anuales
+    </button>
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="2"> </mat-grid-tile>
+</mat-grid-list>
 
 <mat-form-field appearance="outline">
   <mat-label>Buscar</mat-label>
@@ -9,34 +23,24 @@
 <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
   <!-- Name Column -->
   <ng-container matColumnDef="name">
-    <th mat-header-cell *matHeaderCellDef>Proveedores contratados</th>
+    <th mat-header-cell *matHeaderCellDef>Proveedores</th>
     <td mat-cell *matCellDef="let element">
-      <mat-grid-list cols="5" rowHeight="6:1">
-        <mat-nav-list>
-          <a mat-list-item>
-            <img
-              matListAvatar
-              src="https://material.angular.io/assets/img/examples/shiba1.jpg"
-              alt="..."
-            />
-            <span matLine>{{ element.name }}</span>
-            <mat-grid-tile [colspan]="1"> </mat-grid-tile>
-            <mat-grid-tile [colspan]="2"> Vigente </mat-grid-tile>
-            <mat-grid-tile>
-              <button mat-stroked-button>
-                <mat-icon>picture_as_pdf</mat-icon>
-                Ver contrato
-              </button>
-            </mat-grid-tile>
-            <mat-grid-tile>
-              <button mat-stroked-button>
-                <mat-icon>picture_as_pdf</mat-icon>
-                Ver evaluacion inicial
-              </button>
-            </mat-grid-tile>
-          </a>
-        </mat-nav-list>
-      </mat-grid-list>
+      <mat-nav-list>
+        <a mat-list-item>
+          <img
+            matListAvatar
+            src="https://material.angular.io/assets/img/examples/shiba1.jpg"
+            alt="..."
+          />
+          <span matLine>{{ element.name }}</span>
+          <p matLine>
+            {{ element.symbol }}
+          </p>
+          <button mat-icon-button>
+            <mat-icon>picture_as_pdf</mat-icon>
+          </button>
+        </a>
+      </mat-nav-list>
     </td>
   </ng-container>
 
