@@ -11,7 +11,7 @@
     <button mat-menu-item>
       Mis productos
     </button>
-    <button mat-menu-item [matMenuTriggerFor]="proveedores">Proveedores</button>
+    <button mat-menu-item>Proveedores</button>
     <button mat-menu-item>Mis pedidos</button>
     <button mat-menu-item>
       Rec. de Perfumes
@@ -24,7 +24,10 @@
   </mat-menu>
 
   <button mat-button [matMenuTriggerFor]="proveedor" routerLinkActive="active">
-    Soy un proveedor <mat-icon>arrow_drop_down</mat-icon>
+    Soy un proveedor
+    <button mat-icon-button [matMenuTriggerFor]="proveedor">
+      <mat-icon>arrow_drop_down</mat-icon>
+    </button>
   </button>
   <mat-menu #proveedor="matMenu">
     <button mat-menu-item>Mis productos</button>

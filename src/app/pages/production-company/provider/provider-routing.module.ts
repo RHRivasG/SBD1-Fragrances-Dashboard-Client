@@ -3,14 +3,13 @@ import { Routes, RouterModule } from "@angular/router";
 import { WithContractComponent } from "./with-contract/with-contract.component";
 import { WithoutContractComponent } from "./without-contract/without-contract.component";
 import { WithContractListComponent } from "./with-contract-list/with-contract-list.component";
-import { WithoutContractListComponent } from "./without-contract-list/without-contract-list.component";
 
 const routes: Routes = [
   {
     path: "",
     children: [
       {
-        path: "with-contract",
+        path: "number",
         component: WithContractComponent,
       },
       {
@@ -18,12 +17,8 @@ const routes: Routes = [
         component: WithoutContractComponent,
       },
       {
-        path: "with-contract-list",
+        path: "",
         component: WithContractListComponent,
-      },
-      {
-        path: "without-contract-list",
-        component: WithoutContractListComponent,
       },
     ],
   },
