@@ -1,26 +1,33 @@
 <mat-toolbar>
-  <span>PERTINENCE</span>
-  <button mat-button [matMenuTriggerFor]="productor">
-    Soy un productor <mat-icon>arrow_drop_down</mat-icon>
+  <span> PERTINENCE </span>
+  <button mat-button routerLinkActive="active">
+    Soy un productor
+    <button mat-icon-button [matMenuTriggerFor]="productor">
+      <mat-icon>arrow_drop_down</mat-icon>
+    </button>
   </button>
+
   <mat-menu #productor="matMenu">
     <button mat-menu-item>
       Mis productos
     </button>
-    <button mat-menu-item [matMenuTriggerFor]="vertebrates">Proveedores</button>
+    <button mat-menu-item>Proveedores</button>
     <button mat-menu-item>Mis pedidos</button>
     <button mat-menu-item>
       Rec. de Perfumes
     </button>
   </mat-menu>
 
-  <mat-menu #vertebrates="matMenu">
-    <button mat-menu-item>Birds</button>
-    <button mat-menu-item>Mammals</button>
+  <mat-menu #proveedores="matMenu">
+    <button mat-menu-item>contratados</button>
+    <button mat-menu-item>sin contrato</button>
   </mat-menu>
 
-  <button mat-button [matMenuTriggerFor]="proveedor">
-    Soy un proveedor <mat-icon>arrow_drop_down</mat-icon>
+  <button mat-button [matMenuTriggerFor]="proveedor" routerLinkActive="active">
+    Soy un proveedor
+    <button mat-icon-button [matMenuTriggerFor]="proveedor">
+      <mat-icon>arrow_drop_down</mat-icon>
+    </button>
   </button>
   <mat-menu #proveedor="matMenu">
     <button mat-menu-item>Mis productos</button>
