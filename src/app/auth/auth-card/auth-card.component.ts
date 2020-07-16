@@ -5,6 +5,7 @@ import {
   style,
   animate,
   transition,
+  keyframes,
   // ...
 } from '@angular/animations';
 
@@ -15,16 +16,22 @@ import {
   animations: [
     trigger('un-selected', [
       state('selected', style({
-        borderWidth: 3
+        border: '5px solid #F8A848'
       })),
       state('unselected', style({
-        borderWidth: 0
+        border: 'none'
       })),
       transition('selected => unselected', [
-        animate('0.25s')
+        animate('0.10s', keyframes([
+          style({ border: '5px solid #F8A848' }),
+          style({ border: 'none' })
+        ]))
       ]),
       transition('unselected => selected', [
-        animate('0.25s')
+        animate(0, keyframes([
+          style({ border: 'none' }),
+          style({ border: '5px solid #F8A848' })
+        ]))
       ])
     ])
   ]
@@ -44,6 +51,7 @@ export class AuthCardComponent implements OnInit {
   }
 
   proc_click() {
+    this.isSelected = true
     this.selected.emit()
   }
   

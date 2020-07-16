@@ -1,7 +1,7 @@
-<p>auth-productors works!</p>
-<li>
-  <ol *ngFor="let element of input">
-    <p>{{ element.id }}</p>
-    <p>{{ element.name }}</p>
-  </ol>
-</li>
+<div class="container">
+  <mat-grid-list [cols]="colCount">
+    <mat-grid-tile *ngFor="let element of input">
+      <app-auth-card [title]="element.name" [imgSrc]="imageService.getImageLink(element.id)"></app-auth-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>

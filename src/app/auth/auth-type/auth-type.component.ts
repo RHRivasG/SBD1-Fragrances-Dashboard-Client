@@ -1,4 +1,5 @@
 import { Component, OnInit, EventEmitter, Output } from '@angular/core';
+import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 
 
 @Component({
@@ -9,11 +10,27 @@ import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 export class AuthTypeComponent implements OnInit {
   isProductorSelected: boolean
   isProviderSelected: boolean
+  colCount: number
 
   @Output()
   public optionClicked: EventEmitter<string> = new EventEmitter<string>()
 
-  constructor() { }
+  constructor(bObserver: BreakpointObserver) {
+    this.colCount = 2
+    bObserver
+      .observe([
+        Breakpoints.HandsetPortrait
+      ])
+      .subscribe(
+        (res) => {
+          if (res.matches)
+            this.colCount = 1;
+          else
+            this.colCount = 2;
+          
+        }
+      )
+  }
 
   ngOnInit(): void {
   }

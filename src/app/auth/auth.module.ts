@@ -17,6 +17,7 @@ import { AuthCardComponent } from './auth-card/auth-card.component';
 import { MatRippleModule } from '@angular/material/core';
 import { AuthOptionsResolver } from './resolvers/auth-options-resolver';
 import { HttpClientModule } from '@angular/common/http';
+import { ImageService } from './services/image-service.service';
 
 @NgModule({
   declarations: [AuthLayoutComponent, AuthProductorsComponent, AuthTypeComponent, AuthCardComponent],
@@ -34,6 +35,6 @@ import { HttpClientModule } from '@angular/common/http';
     HttpClientModule,
     AuthRoutingModule
   ],
-  providers: [ AuthOptionsResolver ]
+  providers: [ AuthOptionsResolver, ImageService ]
 })
 export class AuthModule { }

@@ -1,3 +1,4 @@
+import { Breakpoints, BreakpointObserver } from "@angular/cdk/layout"
 import { Component, OnInit, ViewChild, AfterViewInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { map, filter } from 'rxjs/operators'
@@ -14,10 +15,13 @@ export class AuthLayoutComponent implements OnInit, AfterViewInit {
   isLineal: boolean
   typeFormGroup: FormGroup
   internal_data: any
+  colCount : number
   @ViewChild('stepper') stepper: MatStepper
   
-  constructor(private route: ActivatedRoute, private formBuilder : FormBuilder) { }
-
+  constructor(private route: ActivatedRoute, private formBuilder : FormBuilder, bObserver: BreakpointObserver)
+  {
+  }
+  
   ngAfterViewInit(): void {
     if (!this.isLineal) this.navigateTo(this.step)
   }

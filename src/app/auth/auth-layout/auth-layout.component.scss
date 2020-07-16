@@ -1,4 +1,3 @@
-
 h2 {
     text-align: center;
     margin-top: 15px;
@@ -6,18 +5,17 @@ h2 {
 }
 
 .mat-toolbar {
-    z-index: 2;
     background-color: #182820;
     position: relative;
     color: white;
 }
 
 .layout-body {
-    z-index: -1 !important;
+    width: 100%;
     height: 100%;
-    background-color: #c0c8d8;
 }
 
 mat-horizontal-stepper {
-    background-color: #c0c8d8;
+    background-color: transparent;
 }
+
