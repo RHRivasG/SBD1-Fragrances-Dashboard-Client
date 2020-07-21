@@ -6,15 +6,17 @@ import { AppComponent } from "./app.component";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { AuthModule } from "./auth/auth.module";
 import { DashboardModule } from "./dashboard/dashboard.module";
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 @NgModule({
   declarations: [AppComponent],
   imports: [
     BrowserModule,
+    MDBBootstrapModule.forRoot(),
+    BrowserAnimationsModule,
     AuthModule,
     DashboardModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

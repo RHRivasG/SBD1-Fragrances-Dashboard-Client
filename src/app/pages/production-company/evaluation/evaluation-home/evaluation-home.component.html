@@ -1,0 +1,31 @@
+<mdb-breadcrumb customClass="indigo lighten2 rounded-0">
+  <mdb-breadcrumb-item class="lime-text" routerLink="./" fontWeight="bold">
+    <mdb-icon fas icon="home" class="mr-1"></mdb-icon>
+    Evaluaciones
+  </mdb-breadcrumb-item>
+</mdb-breadcrumb>
+
+<mat-grid-list cols="3">
+  <mat-grid-tile>
+    <app-evaluation-card
+      routerLink="./provider"
+      fTitle="Evaluar Proveedor"
+      imgSrc="https://image.flaticon.com/icons/svg/1379/1379403.svg"
+      backColor="#F0D098"></app-evaluation-card>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <app-evaluation-card
+      routerLink="./criteria"
+      fTitle="Administrar Criterios"
+      imgSrc="https://image.flaticon.com/icons/svg/1/1560.svg"
+      backColor="#5DC1B9"></app-evaluation-card>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <app-evaluation-card
+      
+      fTitle="Administrar Escala"
+      imgSrc="https://image.flaticon.com/icons/svg/565/565814.svg"
+      backColor="#FEE1E8"></app-evaluation-card>
+  </mat-grid-tile>
+  
+</mat-grid-list>

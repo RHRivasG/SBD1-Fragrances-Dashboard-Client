@@ -2,6 +2,12 @@
   flex: 1 1 auto;
 }
 
+.mat-toolbar {
+  background-color: #182820;
+  position: relative;
+  color: white;
+}
+
 .example-header-image {
   background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
   background-size: cover;

@@ -1,0 +1,100 @@
+<mdb-breadcrumb customClass="indigo lighten2 rounded-0">
+  <mdb-breadcrumb-item  class="lime-text" routerLink="../../evaluation/" fontWeight="bold">
+    <mdb-icon fas icon="home" class="mr-1"></mdb-icon>
+    Evaluaciones
+  </mdb-breadcrumb-item>
+  <mdb-breadcrumb-item class="active" routerLink="./criteria" fontWeight="bold">
+    <mdb-icon fas icon="clipboard-check" class="mr-1"></mdb-icon>
+    Criterios
+  </mdb-breadcrumb-item>
+</mdb-breadcrumb>
+
+<mat-tab-group mat-align-tabs="center" mat-stretch-tabs dynamicHeight>
+  <mat-tab label="Criterios Actuales"> Criterios a mostrar </mat-tab>
+  <mat-tab label="Crear/Actualizar Criterio">
+    <form [formGroup]="criteriaForm" (ngSubmit)="onSubmit()">
+      <mat-card class="mat-elevation-z8 container">
+        <mat-card-title>
+          Formulario de Criterio
+        </mat-card-title>
+        <mat-card-content>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col">
+                <mat-icon>fact_check</mat-icon>
+              </div>
+              <div class="col-10">
+                <mat-form-field>
+                  <mat-select formControlName="criteria">
+                    <mat-option value="1">Criterio 1</mat-option>
+                  </mat-select>
+                  <mat-label>
+                    Criterio a seleccionar
+                  </mat-label>
+                </mat-form-field>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+              </div>
+              <div class="col-10">
+                <mat-form-field appareance="legacy">
+                  <input matInput placeholder="Nombre del Criterio" formControlName="name">
+                </mat-form-field>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <mat-icon>settings</mat-icon>                
+              </div>
+              <div class="col-10">
+                <mat-form-field appareance="legacy">
+                  <mat-select formControlName="formula">
+                    <mat-option value="1">
+                      Evaluacion inicial
+                    </mat-option>
+                  </mat-select>
+                  <mat-label>Seleccionar el tipo de formula</mat-label>
+                </mat-form-field>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+              </div>
+              <div class="col-10" appareance="legacy">
+                <mat-form-field hintLabel="Porcentaje o decimal, Ej: 0.66 o 66%" appareance="legacy">
+                  <input matInput placeholder="Peso del Criterio" formControlName="weight">
+                </mat-form-field>
+              </div>
+            </div>
+          </div>
+          <mat-expansion-panel class="mat-elevation-z0">
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                Descripcion
+              </mat-panel-title>
+              <mat-panel-description>
+                Descripcion del campo seleccionado
+              </mat-panel-description>  
+            </mat-expansion-panel-header>
+            <mat-panel-description>
+              
+            </mat-panel-description>
+          </mat-expansion-panel>
+        </mat-card-content>
+        <mat-card-actions>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col">
+                <button mat-flat-button type="submit" color="primary" [disabled]="criteriaForm.invalid"> <mat-icon class="mr-1">check</mat-icon> Aceptar </button>
+              </div>
+              <div class="col">
+                <button mat-flat-button color="warn"> <mat-icon class="mr-1">cancel</mat-icon> Cancelar </button>
+              </div>
+            </div>
+          </div>
+        </mat-card-actions>
+      </mat-card>
+    </form>
+  </mat-tab>
+</mat-tab-group>

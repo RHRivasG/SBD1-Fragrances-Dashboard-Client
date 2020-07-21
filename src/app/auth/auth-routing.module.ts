@@ -5,21 +5,11 @@ import { AuthOptionsResolver } from './resolvers/auth-options-resolver';
 
 const routes: Routes = [
   {
-    path: 'auth/:step',
+    path: ':step',
     component: AuthLayoutComponent,
     resolve: {
       logOptions: AuthOptionsResolver
     }
-  },
-  {
-    path: '',
-    pathMatch: 'full',
-    redirectTo: '/auth/step?step=type'
-  },
-  {
-    path: 'auth',
-    pathMatch: 'full',
-    redirectTo: '/auth/step?step=type'
   }
 ];
 

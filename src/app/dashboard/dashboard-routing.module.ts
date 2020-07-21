@@ -6,7 +6,7 @@ import { ProviderCompanyModule } from "../pages/provider-company/provider-compan
 
 const routes: Routes = [
   {
-    path: "dashboard",
+    path: "",
     component: NavbarComponent,
     children: [
       {
@@ -16,7 +16,7 @@ const routes: Routes = [
       {
         path: "provider",
         loadChildren: () => ProviderCompanyModule,
-      },
+      }
     ],
   },
 ];

@@ -7,7 +7,15 @@
       <ng-template matStepLabel>¿Que tipo de empresa desea ser?
       </ng-template>
       <h2>Seleccione el tipo de empresa</h2>
-      <app-auth-type (optionClicked)="navigateTo($event)"></app-auth-type>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-10">
+            <app-auth-type (optionClicked)="navigateTo($event)"></app-auth-type>
+          </div>
+          <div class="col"></div>
+        </div>
+      </div>
       <form [formGroup]="typeFormGroup">
         <input type="text" required formControlName="dummyInput" hidden>
       </form>

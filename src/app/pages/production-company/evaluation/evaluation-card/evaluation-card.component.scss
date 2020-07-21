@@ -1,0 +1,49 @@
+@import '~@angular/material/theming', 'src/app/auth/breakpoints';
+
+.mat-card-footer {
+    margin-top: 10%;
+    align-items: center;
+    text-align: center;
+    @include sm {
+        font-size: 18px;
+        min-height: 28px;
+    }
+
+    @include md {
+        font-size: 21px;
+        min-height: 36px;
+    }
+
+    @include lg {
+        font-size: 40px;
+        min-height: 50px;
+    }    
+}
+
+.mat-card-content {
+    display: flex;
+    justify-content: center;
+}
+
+.mat-card {
+    @include mat-elevation-transition;
+    cursor: pointer;
+    border-style: solid;
+    padding: 0;
+    border-color: #F8A848;
+    &:hover {
+        @include sm {
+            transform: scale(1.01);
+        }
+
+        @include md {
+            transform: scale(1.05);
+        }
+
+        @include lg {
+            transform: scale(1.1);   
+        }
+    }
+
+    transition: all 0.25s;
+}

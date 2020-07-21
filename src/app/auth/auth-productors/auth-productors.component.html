@@ -1,7 +1,13 @@
-<div class="container">
-  <mat-grid-list [cols]="colCount">
-    <mat-grid-tile *ngFor="let element of input">
-      <app-auth-card [title]="element.name" [imgSrc]="imageService.getImageLink(element.id)"></app-auth-card>
-    </mat-grid-tile>
-  </mat-grid-list>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col"></div>
+    <div class="col-10">
+      <mat-grid-list [cols]="colCount">
+        <mat-grid-tile *ngFor="let element of input">
+          <app-auth-card [title]="element.name" [imgSrc]="imageService.getImageLink(element.id)"></app-auth-card>
+        </mat-grid-tile>
+      </mat-grid-list>
+    </div>
+    <div class="col"></div>
+  </div>
 </div>

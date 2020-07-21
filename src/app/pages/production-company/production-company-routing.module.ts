@@ -15,6 +15,10 @@ const routes: Routes = [
         path: "providers",
         loadChildren: () => ProviderModule,
       },
+      {
+        path: "evaluation",
+        loadChildren: () => import('./evaluation/evaluation.module').then(m => m.EvaluationModule)
+      }
     ],
   },
 ];

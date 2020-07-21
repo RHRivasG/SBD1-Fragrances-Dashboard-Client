@@ -1,0 +1,58 @@
+<mdb-breadcrumb customClass="indigo lighten2 rounded-0">
+  <mdb-breadcrumb-item class="lime-text" routerLink="../../evaluation" fontWeight="bold">
+    <mdb-icon fas icon="home" class="mr-1"></mdb-icon>
+    Evaluaciones
+  </mdb-breadcrumb-item>
+  <mdb-breadcrumb-item class="active" routerLink="./criteria" fontWeight="bold">
+    <mdb-icon fas icon="users" class="mr-1"></mdb-icon>
+    Proveedores
+  </mdb-breadcrumb-item>
+</mdb-breadcrumb>
+
+<div class="container-fluid h-100">
+  <div class="row vh">
+    <div class="col-4">
+      <mat-card class="mat-elevation-z6">
+        <mat-card-header>
+          <mat-card-title>
+            Criterios del Productor
+          </mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <mat-selection-list>
+            <mat-list-option *ngFor="let item of criteria | async">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8">
+                    <h4>{{ (getCriteriaNameById(item.id_criterio) |async)}}</h4>
+                  </div>
+                  <div class="col">
+                    <h5>Peso: {{ item.peso }}%</h5>
+                  </div>
+                </div>
+              </div>
+            </mat-list-option>
+          </mat-selection-list>
+        </mat-card-content>
+      </mat-card>
+    </div>
+    <div class="col">
+      <mat-card class="mat-elevation-z6">
+        <mat-card-header>
+          <mat-card-title>Seleccion de Criterios</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <div class="container">
+            <div class="row">
+              <h3>Tipo de evaluacion</h3>
+            </div>
+            <mat-radio-group>
+              <mat-radio-button class="mr-5" (change)="showInitial=true" value="true">Evaluacion Inicial</mat-radio-button>
+              <mat-radio-button (change)="showInitial=false" value="false">Evaluacion de Eficiencia</mat-radio-button>
+            </mat-radio-group>
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>

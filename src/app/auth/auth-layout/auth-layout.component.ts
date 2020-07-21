@@ -18,7 +18,7 @@ export class AuthLayoutComponent implements OnInit, AfterViewInit {
   colCount : number
   @ViewChild('stepper') stepper: MatStepper
   
-  constructor(private route: ActivatedRoute, private formBuilder : FormBuilder, bObserver: BreakpointObserver)
+  constructor(private route: ActivatedRoute, private formBuilder : FormBuilder)
   {
   }
   

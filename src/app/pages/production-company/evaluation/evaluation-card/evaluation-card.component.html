@@ -1,0 +1,16 @@
+<mat-card
+  (click)="proc_click()"
+  (mouseenter)="isSelected = true"
+  (mouseleave)="isSelected = false"
+  [class.mat-elevation-z12]="isSelected"
+  [class.mat-elevation-z4]="!isSelected"
+  [@un-selected]="isSelected ? 'selected' : 'unselected'"
+  matRipple
+  >
+  <mat-card-content>
+    <img [src]="imgSrc" [ngStyle] = "{ 'background-color': backColor }">
+  </mat-card-content>
+  <mat-card-footer>
+    {{ fTitle  }}
+  </mat-card-footer>
+ </mat-card>
