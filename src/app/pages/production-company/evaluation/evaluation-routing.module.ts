@@ -1,31 +1,35 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-import { EvaluationHomeComponent } from './evaluation-home/evaluation-home.component';
-import { EvaluationCriteriaManagementComponent } from './evaluation-criteria-management/evaluation-criteria-management.component';
-import { EvaluateProviderComponent } from './evaluate-provider/evaluate-provider.component';
-import { CriteriaService } from './services/criteria.service';
-
+import { NgModule } from "@angular/core";
+import { Routes, RouterModule } from "@angular/router";
+import { EvaluationHomeComponent } from "./evaluation-home/evaluation-home.component";
+import { EvaluationCriteriaManagementComponent } from "./evaluation-criteria-management/evaluation-criteria-management.component";
+import { EvaluateProviderComponent } from "./evaluate-provider/evaluate-provider.component";
+import { CriteriaService } from "./services/criteria.service";
+import { EvaluationSelectProductsComponent } from "./evaluation-select-products/evaluation-select-products.component";
 
 const routes: Routes = [
   {
-    path: '',
+    path: "",
     component: EvaluationHomeComponent,
   },
   {
-    path: 'criteria',
-    component: EvaluationCriteriaManagementComponent
+    path: "criteria",
+    component: EvaluationCriteriaManagementComponent,
   },
   {
-    path: 'provider',
+    path: "provider",
     component: EvaluateProviderComponent,
     resolve: {
-      criteria: CriteriaService
-    }
-  }
+      criteria: CriteriaService,
+    },
+  },
+  {
+    path: "select-products",
+    component: EvaluationSelectProductsComponent,
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class EvaluationRoutingModule { }
+export class EvaluationRoutingModule {}
