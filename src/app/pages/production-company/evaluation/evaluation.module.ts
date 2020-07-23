@@ -13,7 +13,7 @@ import { MatRippleModule } from '@angular/material/core';
 import { MatTabsModule } from '@angular/material/tabs';
 import { BreadcrumbModule, IconsModule } from 'angular-bootstrap-md';
 import { EvaluationCriteriaManagementComponent } from './evaluation-criteria-management/evaluation-criteria-management.component'
-import { ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
@@ -22,12 +22,13 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { EvaluateProviderComponent } from './evaluate-provider/evaluate-provider.component';
 import { MatListModule } from '@angular/material/list';
-import { RawCriteriaService } from './services/raw-criteria.service';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatRadioModule } from '@angular/material/radio';
+import { MatTableModule } from '@angular/material/table';
+import { EvaluateProviderFormulaComponent } from './evaluate-provider-formula/evaluate-provider-formula.component';
 
 @NgModule({
-  declarations: [EvaluationScaleComponent, EvaluationHomeComponent, EvaluationCardComponent, EvaluationCriteriaManagementComponent, EvaluateProviderComponent],
+  declarations: [EvaluationScaleComponent, EvaluationHomeComponent, EvaluationCardComponent, EvaluationCriteriaManagementComponent, EvaluateProviderComponent, EvaluateProviderFormulaComponent],
   imports: [
     CommonModule,
     ReactiveFormsModule,
@@ -36,6 +37,7 @@ import { MatRadioModule } from '@angular/material/radio';
     MatButtonModule,
     MatCardModule,
     MatListModule,
+    MatTableModule,
     MatExpansionModule,
     BreadcrumbModule,
     IconsModule,
@@ -49,6 +51,5 @@ import { MatRadioModule } from '@angular/material/radio';
     MatDividerModule,
     EvaluationRoutingModule
   ],
-  providers: [RawCriteriaService]
 })
 export class EvaluationModule { }

@@ -10,7 +10,6 @@ import { AuthTypeComponent } from './auth-type/auth-type.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { AuthCardComponent } from './auth-card/auth-card.component';
@@ -28,7 +27,6 @@ import { ImageService } from './services/image-service.service';
     MatButtonModule,
     MatIconModule,
     MatRippleModule,
-    BrowserAnimationsModule,
     MatGridListModule,
     ReactiveFormsModule,
     MatToolbarModule,

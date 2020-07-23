@@ -10,49 +10,124 @@
 </mdb-breadcrumb>
 
 <div class="container-fluid h-100">
-  <div class="row vh">
+  <div class="row">
     <div class="col-4">
-      <mat-card class="mat-elevation-z6">
+      <mat-card class="mat-elevation-z6 w-100 h-100">
         <mat-card-header>
           <mat-card-title>
             Criterios del Productor
           </mat-card-title>
         </mat-card-header>
         <mat-card-content>
-          <mat-selection-list>
-            <mat-list-option *ngFor="let item of criteria | async">
-              <div class="container">
-                <div class="row">
-                  <div class="col-8">
-                    <h4>{{ (getCriteriaNameById(item.id_criterio) |async)}}</h4>
-                  </div>
-                  <div class="col">
-                    <h5>Peso: {{ item.peso }}%</h5>
+          <mat-selection-list #criteriaList>
+            <ng-container *ngFor="let item of criteria | async"> 
+              <mat-list-option [value]="item" color="primary" #criteriaList>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-8">
+                      <h4>{{ (getCriteriaNameById(item.id_criterio) |async)}}</h4>
+                    </div>
+                    <div class="col">
+                      <h5>Peso: {{ item.peso }}%</h5>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </mat-list-option>
+              </mat-list-option>
+            </ng-container>
           </mat-selection-list>
         </mat-card-content>
       </mat-card>
     </div>
-    <div class="col">
-      <mat-card class="mat-elevation-z6">
-        <mat-card-header>
-          <mat-card-title>Seleccion de Criterios</mat-card-title>
-        </mat-card-header>
-        <mat-card-content>
-          <div class="container">
-            <div class="row">
-              <h3>Tipo de evaluacion</h3>
+    <div class="col-8">
+      <div class="row">
+        <mat-card class="mat-elevation-z6 w-100 mr-3">
+          <mat-card-header>
+            <mat-card-title>Seleccion de Criterios</mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <div class="container">
+              <div class="row mt-4">
+                <h3>Tipo de evaluacion</h3>
+              </div>
+              <div class="row">
+                <div class="col-11 ml-6">
+                  <mat-divider></mat-divider>
+                </div>
+                <div class="col">
+                </div>
+              </div>
+              <div class="row mt-4">
+                <mat-radio-group (change)="showInitial = $event.value == 'I'; checkId = undefined" #selection>
+                  <mat-radio-button color="primary" class="mr-5" [checked]="showInitial" value="I">Evaluacion
+                    Inicial</mat-radio-button>
+                  <mat-radio-button color="primary" [checked]="!showInitial" value="E">Evaluacion de Eficiencia</mat-radio-button>
+                </mat-radio-group>
+              </div>
             </div>
-            <mat-radio-group>
-              <mat-radio-button class="mr-5" (change)="showInitial=true" value="true">Evaluacion Inicial</mat-radio-button>
-              <mat-radio-button (change)="showInitial=false" value="false">Evaluacion de Eficiencia</mat-radio-button>
-            </mat-radio-group>
-          </div>
-        </mat-card-content>
-      </mat-card>
+          </mat-card-content>
+        </mat-card>
+      </div>
+      <div class="row mt-4">
+        <mat-card class="mat-elevation-z6 w-100 mr-3">
+          <mat-card-header>
+            <mat-card-title>
+              Proveedores disponibles
+            </mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <div class="container">
+              <div class="row mt-4">
+                <h3> Proveedores disponibles para {{ showInitial ? 'Evaluacion Inicial' : 'Evaluacion de Eficiencia' }} </h3>
+              </div>
+              <div class="row">
+                <div class="col-11">
+                  <mat-divider></mat-divider>
+                </div>
+                <div class="col">
+                </div>
+              </div>
+              <div class="row">
+                <table mat-table [dataSource]="providerSource | async" class="w-100 mat-elevation-z8 mt-4">
+                  <ng-container matColumnDef="select">
+                    <th mat-header-cell *matHeaderCellDef>
+                      Seleccionar
+                    </th>
+                    <td mat-cell *matCellDef="let element">
+                      <mat-checkbox
+                        color = "primary"
+                        (click)="checkId = element.id"
+                        [checked]="element.id == checkId"
+                        >
+                      </mat-checkbox>
+                    </td>
+                  </ng-container>
+                  <ng-container matColumnDef="name">
+                    <th mat-header-cell *matHeaderCellDef> Nombre  </th>
+                    <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+                  </ng-container>
+
+                  <ng-container matColumnDef="pag_web">
+                    <th mat-header-cell *matHeaderCellDef> Pagina Web </th>
+                    <td mat-cell *matCellDef="let element"> {{element.pag_web}} </td>
+                  </ng-container>
+
+                  <tr mat-header-row *matHeaderRowDef="['select','name', 'pag_web']"></tr>
+                  <tr mat-row *matRowDef="let element; columns: ['select','name', 'pag_web'];" (click)="checkId = element.id"></tr>
+
+                </table>
+              </div>
+            </div>
+            <mat-card-actions>
+              <div class="container-fluid">
+                <div class="row">
+                  <button (click)="next(criteriaList)"  mat-raised-button class="w-100" color="primary" [disabled]="invalid(criteriaList)">Aceptar</button>
+                </div>
+              </div>
+
+            </mat-card-actions>
+          </mat-card-content>
+        </mat-card>
+      </div>
     </div>
   </div>
 </div>

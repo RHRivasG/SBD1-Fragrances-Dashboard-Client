@@ -4,6 +4,11 @@ import { EvaluationHomeComponent } from './evaluation-home/evaluation-home.compo
 import { EvaluationCriteriaManagementComponent } from './evaluation-criteria-management/evaluation-criteria-management.component';
 import { EvaluateProviderComponent } from './evaluate-provider/evaluate-provider.component';
 import { CriteriaService } from './services/criteria.service';
+import { EvaluateProviderFormulaComponent } from './evaluate-provider-formula/evaluate-provider-formula.component';
+import { EvaluationStorageService } from './services/evaluation-storage.service';
+import { ScaleService } from './services/scale.service';
+import { PaymentConditionService } from '../../provider-company/services/payment-condition.service';
+import { ShipmentOptionsService } from '../../provider-company/services/shipment-options.service';
 
 
 const routes: Routes = [
@@ -20,6 +25,16 @@ const routes: Routes = [
     component: EvaluateProviderComponent,
     resolve: {
       criteria: CriteriaService
+    },
+  },
+  {
+    path: 'formula',
+    component: EvaluateProviderFormulaComponent,
+    resolve: {
+      evalOptions: EvaluationStorageService,
+      evalScales: ScaleService,
+      providerCondition: PaymentConditionService,
+      providerShipment: ShipmentOptionsService
     }
   }
 ];

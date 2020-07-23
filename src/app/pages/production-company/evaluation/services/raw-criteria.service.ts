@@ -42,6 +42,22 @@ toma en consideracion las Alternativas de envío disponibles de una empresa prov
     return criteria => criteria.id === id
   }
 
+  match_by_type(_type) {
+    return criteria => ( _type == 'I' && (criteria.id == 1 || criteria.id == 2) ) || ( _type == 'E' && criteria.id == 3 )
+  }
+
+  public byFormulaType(_type) : Observable<RawCriteria[]>{
+    let result = this.get()
+    if (result instanceof Observable)
+      return (result as Observable<RawCriteria[]>).pipe(
+        map(lCriteria => {
+          return lCriteria.filter(this.match_by_type(_type))
+        })
+      )
+    else
+      return of((result as RawCriteria[]).filter(this.match_by_type(_type)))
+  }
+
   public findById(id: number): Observable<RawCriteria> {
     let result = this.get()
     if (result instanceof Observable)

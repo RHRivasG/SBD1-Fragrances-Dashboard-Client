@@ -1,0 +1,76 @@
+<div class="container mt-4">
+  <mat-card class="mat-elevation-z6">
+    <mat-card-header>
+      <mat-card-title>
+        Evaluacion del Proveedor
+      </mat-card-title>
+    </mat-card-header>
+    <mat-card-content class="mt-4">
+      <form [formGroup]="evalForm">
+        <mat-form-field appearance="legacy" class="w-100 mb-4">
+          <mat-label>Nota minima de aprobado</mat-label>
+          <input matInput type="number" formControlName="passingScore">
+          <mat-hint>Porcentaje o decimal Ej: 0.66 o 66%</mat-hint>
+          <mat-error>Valor no permitido</mat-error>
+        </mat-form-field>
+        <mat-accordion>
+          <div formArrayName="evalArray">
+            <ng-container *ngFor="let c of (evalOptions | async).criteria; index as i">
+              <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                  <mat-panel-title>
+                    <h3>{{ getCriteriaNameById(c.id_criterio) | async }} {{c.peso}}%</h3> 
+                  </mat-panel-title>
+                  <mat-panel-description>
+                    Evaluar con el criterio: {{ getCriteriaNameById(c.id_criterio) | async }}
+                  </mat-panel-description>
+                </mat-expansion-panel-header>
+                <div [formGroupName]="i">
+                  <div class="container mt-3">
+                    <div class="row">
+                      <div class="col mt-3"> <mat-icon>settings</mat-icon> </div>
+                      <div class="col-5">
+                        <mat-form-field class="w-100">
+                          <mat-select formControlName="scale">
+                            <ng-container *ngFor="let scale of evalScales | async">
+                              <mat-option [value]="scale">Escala del {{scale.rangoi}} al {{scale.rangf}} </mat-option>
+                            </ng-container>
+                          </mat-select>
+                          <mat-label>Escala a Utilizar</mat-label>
+                        </mat-form-field>
+                      </div>
+                      <div class="col-6">
+                        <mat-form-field class="w-100">
+                          <mat-select formControlName="condition">
+                            <ng-container *ngFor="let point of pointsOf(c) | async">
+                              <mat-option [value]="point"> {{ messageOf(point) }} </mat-option>
+                            </ng-container>
+                          </mat-select>
+                          <mat-label>Condicion a Evaluar del Proveedor</mat-label>
+                        </mat-form-field>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col mt-3"> <mat-icon>filter_1</mat-icon> </div>
+                      <div class="col-11">
+                        <mat-form-field class="w-100" appearance="outline">
+                          <mat-label>Valoracion dada</mat-label>
+                          <input matInput type="number" formControlName="input">
+                          <mat-hint>Debe estar dentro de los limites de su escala seleccionada</mat-hint>
+                          <mat-error>Valoracion dada no dentro de los limites o vacia</mat-error>
+                        </mat-form-field>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </mat-expansion-panel>
+            </ng-container>
+          </div>
+        </mat-accordion>
+      </form>
+    </mat-card-content>
+    <mat-card-actions>
+      <button class="w-100" mat-raised-button color="primary" [disabled]="evalForm.invalid" (click)="calcEval()">Matenme c:</button>
+    </mat-card-actions>
+  </mat-card>
+</div>
