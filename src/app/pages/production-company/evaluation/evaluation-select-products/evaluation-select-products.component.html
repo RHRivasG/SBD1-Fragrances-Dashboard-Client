@@ -1,0 +1,30 @@
+<mat-grid-list cols="1" rowHeight="2:1">
+  <mat-grid-tile>
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title>Seleccione los ingredientes a contratar</mat-card-title>
+      </mat-card-header>
+
+      <mat-card-content>
+        <p>
+          <mat-selection-list #allSelected #listproducts>
+            <mat-list-option *ngFor="let product of products">
+              <mat-card-title>{{ product }}</mat-card-title>
+            </mat-list-option>
+          </mat-selection-list>
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <p align="right" *ngIf="listproducts.selectedOptions.selected.length">
+          <button
+            mat-raised-button
+            color="primary"
+            (click)="onSave(listproducts)"
+          >
+            Siguiente
+          </button>
+        </p>
+      </mat-card-actions>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>

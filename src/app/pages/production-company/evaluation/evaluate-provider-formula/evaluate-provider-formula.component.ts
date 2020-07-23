@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { EvalCriteria } from 'src/app/models/eval-criteria';
 import { map } from 'rxjs/operators';
 import { Observable } from 'rxjs';
@@ -40,6 +40,7 @@ export class EvaluateProviderFormulaComponent implements OnInit {
         let scale = fg.controls.scale.value.rangf;
         return acc + (val / scale) * (crit.peso / 100) 
       } ,0 )
+    this.router.navigate([ '../select-products' ], { relativeTo: this.route })
     this.evalForm.enable()
   }
 
@@ -50,7 +51,7 @@ export class EvaluateProviderFormulaComponent implements OnInit {
       )
   }
 
-  constructor(private route: ActivatedRoute, private rawService: RawCriteriaService, private fb: FormBuilder) { }
+  constructor(private route: ActivatedRoute, private rawService: RawCriteriaService, private fb: FormBuilder, private router: Router) { }
 
   ngOnInit(): void {
     this.evalOptions = this.route.data

@@ -22,6 +22,7 @@ import { ImageService } from './services/image-service.service';
   declarations: [AuthLayoutComponent, AuthProductorsComponent, AuthTypeComponent, AuthCardComponent],
   imports: [
     CommonModule,
+    HttpClientModule,
     MatStepperModule,
     MatCardModule,
     MatButtonModule,

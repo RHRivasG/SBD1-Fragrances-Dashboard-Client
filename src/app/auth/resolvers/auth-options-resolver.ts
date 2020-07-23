@@ -31,70 +31,11 @@ export class AuthOptionsResolver implements Resolve<Enterprise[]> {
     }
 
     public getProductors(): Observable<Producer[]> {
-        return of([
-            {
-                id: 1,
-                name: 'IFF',
-                pag_web: null,
-                inf_contacto: null
-            },
-            {
-                id: 2,
-                name: 'Firmenich',
-                pag_web: null,
-                inf_contacto: null
-            },
-            {
-                id: 3,
-                name: 'Armonex',
-                pag_web: null,
-                inf_contacto: null
-            },
-            {
-                id: 4,
-                name: 'fourchem',
-                pag_web: null,
-                inf_contacto: null
-            },
-            {
-                id: 5,
-                name: 'Sephora',
-                pag_web: null,
-                inf_contacto: null
-            },            
-        ])
+        return this.http.get<Producer[]>('api/producers')
     }
 
     public getProviders(): Observable<Provider[]> {
-        return of(
-            [
-                
-                {
-                    id: 1,
-                    name: 'Keva',
-                    pag_web: null,
-                    inf_contacto: null
-                },
-                {
-                    id: 2,
-                    name: 'essence',
-                    pag_web: null,
-                    inf_contacto: null
-                },
-                {
-                    id: 3,
-                    name: 'Privi',
-                    pag_web: null,
-                    inf_contacto: null
-                },
-                {
-                    id: 4,
-                    name: 'PA',
-                    pag_web: null,
-                    inf_contacto: null
-                },            
-            ]   
-        )
+        return this.http.get<Provider[]>('/api/providers')
     }
     
 }

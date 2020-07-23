@@ -1,0 +1,19 @@
+[3:45:39.90] Global cache location '/home/syfers/.cache/typescript/3.9', safe file path '/usr/lib/node_modules/typescript/lib/typingSafeList.json', types map path /usr/lib/node_modules/typescript/lib/typesMap.json
+[3:45:39.105] Processing cache location '/home/syfers/.cache/typescript/3.9'
+[3:45:39.105] Trying to find '/home/syfers/.cache/typescript/3.9/package.json'...
+[3:45:39.106] Loaded content of '/home/syfers/.cache/typescript/3.9/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.499"}}
+[3:45:39.106] Loaded content of '/home/syfers/.cache/typescript/3.9/package-lock.json'
+[3:45:39.106] Finished processing cache location '/home/syfers/.cache/typescript/3.9'
+[3:45:39.106] Process id: 18198
+[3:45:39.106] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[3:45:39.106] validateDefaultNpmLocation: false
+[3:45:39.106] Npm config file: /home/syfers/.cache/typescript/3.9/package.json
+[3:45:39.106] Updating types-registry npm package...
+[3:45:39.106] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[3:45:41.600]     Succeeded. stdout:
+    + types-registry@0.1.499
+    updated 1 package and audited 1 package in 1.929s
+found 0 vulnerabilities
+
+
+[3:45:41.601] Updated types-registry npm package
