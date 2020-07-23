@@ -40,7 +40,13 @@ export class EvaluateProviderFormulaComponent implements OnInit {
         let scale = fg.controls.scale.value.rangf;
         return acc + (val / scale) * (crit.peso / 100) 
       } ,0 )
-    this.router.navigate([ '../select-products' ], { relativeTo: this.route })
+    if (result*100 >= this.evalForm.controls.passingScore.value)
+    {
+      window.alert(`Prueba realizada: Resultado positivo ${result*100} >= ${this.evalForm.controls.passingScore.value}`)
+      this.router.navigate([ '../select-products' ], { relativeTo: this.route })
+    } else {
+      window.alert('Prueba realizada: Resultado negativo')
+    }
     this.evalForm.enable()
   }
 

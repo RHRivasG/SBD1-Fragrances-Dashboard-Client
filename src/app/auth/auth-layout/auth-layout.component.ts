@@ -57,8 +57,8 @@ export class AuthLayoutComponent implements OnInit, AfterViewInit {
   get data(): any {
     return this.internal_data.pipe(
       map((collection : any[]) => {
-        if (this.step == 'productor') return collection.filter(element => !('country' in element))
-        else if (this.step == 'provider') return collection.filter(element => 'country' in element)
+        if (this.step == 'productor') return collection.filter(element => element.tipo == 'R')
+        else if (this.step == 'provider') return collection.filter(element => element.tipo == 'V')
         else return collection
       })
     )

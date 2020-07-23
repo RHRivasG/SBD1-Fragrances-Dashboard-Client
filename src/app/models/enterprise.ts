@@ -13,7 +13,7 @@ export interface Enterprise {
 export function fromProvider(p: Provider): Enterprise {
     return {
         id: p.id,
-        name: p.name,
+        name: p.nombre,
         pag_web: p.pag_web,
         inf_contacto: p.inf_contacto,
         tipo: 'V'
@@ -23,7 +23,7 @@ export function fromProvider(p: Provider): Enterprise {
 export function fromProducer(p: Producer): Enterprise {
     return {
         id: p.id,
-        name: p.name,
+        name: p.nombre,
         pag_web: p.pag_web,
         inf_contacto: p.inf_contacto,
         tipo: 'R'

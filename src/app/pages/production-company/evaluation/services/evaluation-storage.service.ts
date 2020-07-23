@@ -17,6 +17,8 @@ export class EvaluationStorageService implements Resolve<{criteria: EvalCriteria
     }
   }
 
+  get providerId(): number {return this.provider}
+
   store(criteria: EvalCriteria[], provider: number) {
     this.criteria = criteria
     this.provider = provider

@@ -1,29 +1,17 @@
 import { Injectable } from '@angular/core';
 import { PaymentCondition } from 'src/app/models/payment-condition';
 import { Resolve, ActivatedRouteSnapshot, RouterStateSnapshot } from '@angular/router';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
 })
 export class PaymentConditionService implements Resolve<PaymentCondition[]> {
 
-  constructor() {
+  constructor(private http: HttpClient) {
 
   }
   resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): PaymentCondition[] | import("rxjs").Observable<PaymentCondition[]> | Promise<PaymentCondition[]> {
-    return [
-      {
-        id: 1,
-        id_emp_prov: 1,
-        tipo: 'AP',
-        cuotas: 3
-      },
-      {
-        id: 5,
-        id_emp_prov: 1,
-        tipo: 'C',
-        cuotas: null
-      }
-    ]
+    return this.http.get<PaymentCondition[]>('/api/providers/1/payment_conditions')
   }
 }

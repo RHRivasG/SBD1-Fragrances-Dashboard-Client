@@ -4,7 +4,7 @@
     <div class="col-10">
       <mat-grid-list [cols]="colCount">
         <mat-grid-tile *ngFor="let element of input">
-          <app-auth-card [title]="element.name" [imgSrc]="imageService.getImageLink(element.id)"></app-auth-card>
+          <app-auth-card [title]="element.name" [imgSrc]="imageService.getImageLink(element.id)" routerLink="../dashboard/productor/evaluation"></app-auth-card>
         </mat-grid-tile>
       </mat-grid-list>
     </div>

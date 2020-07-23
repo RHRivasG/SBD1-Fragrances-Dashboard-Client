@@ -10,6 +10,8 @@ import { AuthOptionsResolver } from 'src/app/auth/resolvers/auth-options-resolve
 import { FormGroup, FormControl } from '@angular/forms';
 import { MatSelectionList } from '@angular/material/list';
 import { EvaluationStorageService } from '../services/evaluation-storage.service';
+import { ProvidersService } from 'src/app/services/providers.service';
+import { Provider } from 'src/app/models/provider-model';
 
 
 /*function atLeast(limit = 1) {
@@ -29,10 +31,11 @@ export class EvaluateProviderComponent implements OnInit {
 
   showInitial = true
   source: Observable<EvalCriteria[]>
-
+  providersInit: Observable<Provider[]>
+  providersEff: Observable<Provider[]>
   checkId: number;
 
-  constructor(private router: Router, private route: ActivatedRoute, private rawService: RawCriteriaService, private criteriaService: CriteriaService, private providerService: AuthOptionsResolver, private evalStorage: EvaluationStorageService) { }
+  constructor(private router: Router, private route: ActivatedRoute, private rawService: RawCriteriaService, private evalStorage: EvaluationStorageService) { }
 
   /*
   get checkForm(): Observable<FormGroup> {
@@ -50,28 +53,27 @@ export class EvaluateProviderComponent implements OnInit {
       )
       }*/
   
-  get providerSource(): Observable<Enterprise[]> {
-    return this.providerService.getProviders()
-      .pipe(
-        map(lprov =>
-          lprov
-            .filter(this.criteriaService.evaluableBy( 2, this.showInitial ? 'I' : 'E' ))
-            .map(fromProvider)
-           ),
-      )
+  get providerSource(): Observable<Provider[]> {
+    return this.showInitial ? this.providersInit : this.providersEff
   }
 
   ngOnInit(): void {
     this.source = this.route.data.pipe(
       map(resolve => resolve.criteria),
     )
+    this.providersInit = this.route.data.pipe(
+      map(resolve => resolve.providerInit)
+    )
+    this.providersEff = this.route.data.pipe(
+      map(resolve => resolve.providerEff)
+    )
   }
 
   get criteria(): Observable<EvalCriteria[]> {
     return this.source.pipe(
       map(lCriteria => {
-        return lCriteria
-          .filter(sCriteria => (this.showInitial && (sCriteria.tipoFormula == 'I')) || (!this.showInitial && (sCriteria.tipoFormula == 'E')))
+        console.log(lCriteria)
+        return lCriteria.filter(sCriteria => (this.showInitial && (sCriteria.tipoformula == 'I')) || (!this.showInitial && (sCriteria.tipoformula == 'E')))
       })
     )
   }
@@ -96,3 +98,4 @@ export class EvaluateProviderComponent implements OnInit {
   }
 
 }
+

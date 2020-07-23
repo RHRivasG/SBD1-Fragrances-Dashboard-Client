@@ -8,11 +8,15 @@
       <mat-card-content>
         <p>
           <mat-selection-list #allSelected #listproducts>
-            <mat-list-option *ngFor="let product of products">
-              <mat-card-title>{{ product }}</mat-card-title>
-            </mat-list-option>
+            <ng-container *ngFor="let product of products | async">
+              <mat-list-option [value]="product">
+                <mat-card-title>{{ product.cas_number }}</mat-card-title>
+                <p>{{product.descripcion_visual}}</p>
+              </mat-list-option>
+            </ng-container>
           </mat-selection-list>
         </p>
+
       </mat-card-content>
       <mat-card-actions>
         <p align="right" *ngIf="listproducts.selectedOptions.selected.length">

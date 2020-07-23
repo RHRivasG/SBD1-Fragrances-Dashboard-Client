@@ -6,37 +6,27 @@ import { Injectable } from '@angular/core';
 import { of, Observable } from 'rxjs';
 import { map, flatMap } from 'rxjs/operators';
 import { Enterprise, fromProvider, fromProducer } from 'src/app/models/enterprise';
+import { ProvidersService } from 'src/app/services/providers.service';
+import { ProducerService } from 'src/app/services/producer.service';
 
 @Injectable()
 export class AuthOptionsResolver implements Resolve<Enterprise[]> {
-    constructor(private http: HttpClient) {
+    
+    constructor(private providers: ProvidersService, private producers: ProducerService) {
         
     }
 
     resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Enterprise[] | Observable<Enterprise[]> | Promise<Enterprise[]> {
-        return this.getProviders().pipe(
-            flatMap(arrV =>
-                this.getProductors()
-                    .pipe(
-                        map(arrR => arrR
-                            .map(fromProducer)
-                            .concat(
-                                arrV
-                                    .map(fromProvider)
-                            )
+        return this.providers.get()
+            .pipe(
+                flatMap(
+                    res =>
+                        this.producers.get().pipe(
+                            map(res2 => res.map(fromProvider).concat(res2.map(fromProducer)))
                         )
-                    )
                 )
-        )
+            )
     }
-
-    public getProductors(): Observable<Producer[]> {
-        return this.http.get<Producer[]>('api/producers')
-    }
-
-    public getProviders(): Observable<Provider[]> {
-        return this.http.get<Provider[]>('/api/providers')
-    }
-    
 }
+
 

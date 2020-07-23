@@ -52,6 +52,7 @@ export class AuthProductorsComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    console.log(this.input)
   }
 
 }

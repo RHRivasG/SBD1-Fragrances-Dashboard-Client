@@ -10,6 +10,10 @@ import { EvaluationCriteriaManagementComponent } from "./evaluation-criteria-man
 import { EvaluateProviderComponent } from "./evaluate-provider/evaluate-provider.component";
 import { CriteriaService } from "./services/criteria.service";
 import { EvaluationSelectProductsComponent } from "./evaluation-select-products/evaluation-select-products.component";
+import { ProvidersService } from 'src/app/services/providers.service';
+import { InitialEvaluableProviderService } from './services/initial-evaluable-provider.service';
+import { EfficiencyEvaluableProivderService } from './services/efficiency-evaluable-proivder.service';
+import { IngredientService } from 'src/app/services/ingredient.service';
 
 const routes: Routes = [
   {
@@ -24,7 +28,9 @@ const routes: Routes = [
     path: "provider",
     component: EvaluateProviderComponent,
     resolve: {
-      criteria: CriteriaService
+      criteria: CriteriaService,
+      providerInit: InitialEvaluableProviderService,
+      providerEff: EfficiencyEvaluableProivderService
     },
   },
   {
@@ -40,6 +46,9 @@ const routes: Routes = [
   {
     path: "select-products",
     component: EvaluationSelectProductsComponent,
+    resolve: {
+      ingredients: IngredientService
+    }
   },
 ];
 

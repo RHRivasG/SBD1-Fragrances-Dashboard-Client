@@ -1,4 +1,8 @@
 import { Component, OnInit } from "@angular/core";
+import { ActivatedRoute } from '@angular/router';
+import { map } from 'rxjs/operators';
+import { IngredientService } from 'src/app/services/ingredient.service';
+import { EvaluationStorageService } from '../services/evaluation-storage.service';
 
 @Component({
   selector: "app-evaluation-select-products",
@@ -7,16 +11,26 @@ import { Component, OnInit } from "@angular/core";
 })
 export class EvaluationSelectProductsComponent implements OnInit {
   //Datos de prueba
-  products: string[];
+  products: any;
 
-  constructor() {}
+  constructor(private route: ActivatedRoute, private push: IngredientService, private store: EvaluationStorageService) {}
 
   ngOnInit(): void {
-    this.products = ["Sagete", "Tropicate", "Yara Yara"];
+    this.products = this.route.data.pipe(
+      map(res => res.ingredients)
+    )
   }
 
   onSave(status) {
-    const value = status.selectedOptions.selected.map((sel) => sel.value);
-    console.log(value);
+    this.push.pushContract(
+      {
+        id_emp_prod: 1,
+        id_emp_prov: this.store.providerId,
+        exclusividad: false,
+        fecha_emision: new Date('2020-07-23'),
+        fecha_cancelado: null,
+        motivo_cancelado: null
+      }
+    )
   }
 }
