@@ -1,0 +1,49 @@
+<p>
+  <mat-form-field appearance="fill" #pagos>
+    <mat-label>Condiciones de pago</mat-label>
+    <mat-select>
+      <mat-option *ngFor="let pago of condpago" [value]="pago.id">
+        <div *ngIf="pago.tipo === 'AP'; then aplazado; else contado"></div>
+        <ng-template #aplazado>
+          aplazado ({{ pago.cuotas }} cuotas)
+        </ng-template>
+        <ng-template #contado>
+          contado
+        </ng-template>
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</p>
+
+<p>
+  <mat-form-field appearance="fill" #envios>
+    <mat-label>Pais de envio</mat-label>
+    <mat-select>
+      <mat-option *ngFor="let pais of condenvio" [value]="pais.id">
+        {{ pais.nombre }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</p>
+
+<h1>Productos:</h1>
+<section class="example-section">
+  <span class="example-list-section">
+    <ul>
+      <li *ngFor="let ingrediente of presentaciones">
+        <mat-checkbox #ings [value]="ingrediente.id">
+          cas number {{ ingrediente.id_ifra_ing }} {{ ingrediente.vol
+          }}{{ ingrediente.unidades }} {{ ingrediente.precio }}$
+        </mat-checkbox>
+      </li>
+    </ul>
+  </span>
+</section>
+
+<button
+  mat-raised-button
+  color="primary"
+  (click)="createOrder(pagos, envios, ings)"
+>
+  Siguiente
+</button>

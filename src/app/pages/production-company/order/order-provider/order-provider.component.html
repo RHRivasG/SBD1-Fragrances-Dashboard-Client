@@ -1,0 +1,10 @@
+<mat-selection-list #provs [multiple]="false">
+  <mat-list-option *ngFor="let prov of providers" [value]="prov.id">
+    {{ prov.nombre }}
+  </mat-list-option>
+</mat-selection-list>
+
+<p>Option selected: {{ provs.selectedOptions.selected[0]?.value }}</p>
+<button mat-raised-button color="primary" (click)="onSelection(provs)">
+  Siguiente
+</button>

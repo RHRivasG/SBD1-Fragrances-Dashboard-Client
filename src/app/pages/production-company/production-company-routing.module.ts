@@ -17,13 +17,19 @@ const routes: Routes = [
       },
       {
         path: "evaluation",
-        loadChildren: () => import('./evaluation/evaluation.module').then(m => m.EvaluationModule)
+        loadChildren: () =>
+          import("./evaluation/evaluation.module").then(
+            (m) => m.EvaluationModule
+          ),
       },
       {
         path: "recommender",
-        loadChildren: () => import('./recommender/recommender.module').then(m => m.RecommenderModule)
-      }
-            {
+        loadChildren: () =>
+          import("./recommender/recommender.module").then(
+            (m) => m.RecommenderModule
+          ),
+      },
+      {
         path: "orders",
         loadChildren: () =>
           import("./order/order.module").then((m) => m.OrderModule),
