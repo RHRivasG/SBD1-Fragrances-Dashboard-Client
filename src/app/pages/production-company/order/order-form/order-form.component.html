@@ -30,8 +30,8 @@
 <section class="example-section">
   <span class="example-list-section">
     <ul>
-      <li *ngFor="let ingrediente of presentaciones">
-        <mat-checkbox #ings [value]="ingrediente.id">
+      <li #ings *ngFor="let ingrediente of presentaciones">
+        <mat-checkbox [value]="ingrediente.id">
           cas number {{ ingrediente.id_ifra_ing }} {{ ingrediente.vol
           }}{{ ingrediente.unidades }} {{ ingrediente.precio }}$
         </mat-checkbox>
@@ -40,10 +40,6 @@
   </span>
 </section>
 
-<button
-  mat-raised-button
-  color="primary"
-  (click)="createOrder(pagos, envios, ings)"
->
+<button mat-raised-button color="primary" (click)="createOrder(pagos, envios)">
   Siguiente
 </button>
