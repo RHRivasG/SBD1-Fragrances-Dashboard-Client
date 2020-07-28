@@ -1,26 +1,25 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-import { AuthLayoutComponent } from './auth-layout/auth-layout.component';
-import { AuthOptionsResolver } from './resolvers/auth-options-resolver';
+import { NgModule } from "@angular/core";
+import { Routes, RouterModule } from "@angular/router";
+import { AuthLayoutComponent } from "./auth-layout/auth-layout.component";
+import { AuthOptionsResolver } from "./resolvers/auth-options-resolver";
 
 const routes: Routes = [
   {
-    path: 'auth',
+    path: "auth",
     component: AuthLayoutComponent,
     resolve: {
-      logOptions: AuthOptionsResolver
-    }
+      logOptions: AuthOptionsResolver,
+    },
   },
   {
-    path: '',
-    pathMatch: 'full',
-    redirectTo: 'auth?step=type'
-  }
+    path: "",
+    pathMatch: "full",
+    redirectTo: "auth?step=type",
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
-  
+  exports: [RouterModule],
 })
-export class AuthRoutingModule { }
+export class AuthRoutingModule {}
