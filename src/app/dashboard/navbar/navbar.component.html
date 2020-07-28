@@ -6,26 +6,15 @@
   </button>
 
   <mat-menu #productor="matMenu">
-    <button mat-menu-item>Mis Productos</button>
-    <button mat-menu-item>Evaluaciones
+    <button mat-menu-item routerLink="./productor/evaluation">Evaluaciones
     </button>
-    <button mat-menu-item>Mis pedidos</button>
-    <button mat-menu-item>Rec. de Perfumes</button>
+    <button mat-menu-item routerLink="./productor/order">Compras</button>
+    <button mat-menu-item routerLink="./productor/recommender">Rec. de Perfumes</button>
   </mat-menu>
 
   <mat-menu #proveedores="matMenu">
     <button mat-menu-item>contratados</button>
     <button mat-menu-item>sin contrato</button>
-  </mat-menu>
-
-  <button mat-button [matMenuTriggerFor]="proveedor" routerLinkActive="active">
-    Soy un proveedor
-    <mat-icon>arrow_drop_down</mat-icon>
-  </button>
-  <mat-menu #proveedor="matMenu">
-    <button mat-menu-item>Mis productos</button>
-    <button mat-menu-item>Mis pedidos</button>
-    <button mat-menu-item>Mis contratos</button>
   </mat-menu>
 
   <span class="example-spacer"></span>
@@ -39,7 +28,7 @@
     <mat-icon>arrow_drop_down</mat-icon>
   </button>
   <mat-menu #cuenta="matMenu" xPosition="before">
-    <button mat-menu-item>cambiar cuenta</button>
+    <button mat-menu-item routerLink="../auth" [queryParams]="{step: 'productor'}">Cambiar Cuenta</button>
   </mat-menu>
 </mat-toolbar>
 
