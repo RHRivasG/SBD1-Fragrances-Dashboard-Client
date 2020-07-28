@@ -29,7 +29,7 @@
 <h1>Productos:</h1>
 <section class="example-section">
   <span class="example-list-section">
-    <mat-selection-list>
+    <mat-selection-list #list>
       <mat-list-option *ngFor="let ingrediente of presentaciones">
         cas number {{ ingrediente.id_ifra_ing }} {{ ingrediente.vol
           }}{{ ingrediente.unidades }} {{ ingrediente.precio }}$
@@ -38,6 +38,6 @@
   </span>
 </section>
 
-<button mat-raised-button color="primary" (click)="createOrder(pagos, envios)">
+<button mat-raised-button color="primary" (click)="createOrder(pagos, envios, list)">
   Siguiente
 </button>

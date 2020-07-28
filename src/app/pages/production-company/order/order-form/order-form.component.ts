@@ -58,7 +58,8 @@ export class OrderFormComponent implements OnInit {
     );
   }
 
-  createOrder(pago, envio) {
+  createOrder(pago, envio, list) {
+    console.log(list)
     console.log(pago.value);
     console.log(envio.value);
     //console.log(presentaciones.selectedOptions.selected[0]?.value);
