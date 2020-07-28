@@ -1,7 +1,7 @@
 <p>
   <mat-form-field appearance="fill" #pagos>
     <mat-label>Condiciones de pago</mat-label>
-    <mat-select>
+    <mat-select [(ngModel)]="pag">
       <mat-option *ngFor="let pago of condpago" [value]="pago.id">
         <div *ngIf="pago.tipo === 'AP'; then aplazado; else contado"></div>
         <ng-template #aplazado>
@@ -18,7 +18,7 @@
 <p>
   <mat-form-field appearance="fill" #envios>
     <mat-label>Pais de envio</mat-label>
-    <mat-select>
+    <mat-select [(ngModel)]="envi">
       <mat-option *ngFor="let pais of condenvio" [value]="pais.id">
         {{ pais.nombre }}
       </mat-option>
@@ -32,12 +32,12 @@
     <mat-selection-list #list>
       <mat-list-option *ngFor="let ingrediente of presentaciones">
         cas number {{ ingrediente.id_ifra_ing }} {{ ingrediente.vol
-          }}{{ ingrediente.unidades }} {{ ingrediente.precio }}$
+        }}{{ ingrediente.unidades }} {{ ingrediente.precio }}$
       </mat-list-option>
     </mat-selection-list>
   </span>
 </section>
 
-<button mat-raised-button color="primary" (click)="createOrder(pagos, envios, list)">
+<button mat-raised-button color="primary" (click)="createOrder(list)">
   Siguiente
 </button>

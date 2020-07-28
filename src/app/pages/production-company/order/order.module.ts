@@ -14,6 +14,7 @@ import { MatSelectModule } from "@angular/material/select";
 import { MatGridListModule } from "@angular/material/grid-list";
 import { MatListModule } from "@angular/material/list";
 import { MatCheckboxModule } from "@angular/material/checkbox";
+import { FormsModule } from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { MatCheckboxModule } from "@angular/material/checkbox";
     MatListModule,
     MatListModule,
     MatCheckboxModule,
+    FormsModule,
   ],
 })
 export class OrderModule {}
