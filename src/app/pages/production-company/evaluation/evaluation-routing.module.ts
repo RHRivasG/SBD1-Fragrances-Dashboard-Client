@@ -33,14 +33,19 @@ const routes: Routes = [
     },
     data: {
       animation: 'slave'
-    }
+    },
+    runGuardsAndResolvers: 'always'
   },
   {
     path: "scales",
     component: EvaluationScaleComponent,
     resolve: {
       scales: ScaleService
-    }
+    },
+    data: {
+      animation: 'slave'
+    },
+    runGuardsAndResolvers: 'always'
   },
   {
     path: "provider",

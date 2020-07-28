@@ -27,6 +27,7 @@ import { MatRadioModule } from "@angular/material/radio";
 import { EvaluationSelectProductsComponent } from "./evaluation-select-products/evaluation-select-products.component";
 import { EvaluateProviderFormulaComponent } from './evaluate-provider-formula/evaluate-provider-formula.component';
 import { MatTableModule } from '@angular/material/table';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -47,6 +48,7 @@ import { MatTableModule } from '@angular/material/table';
     MatCardModule,
     MatListModule,
     MatTableModule,
+    MatDialogModule,
     MatExpansionModule,
     BreadcrumbModule,
     IconsModule,

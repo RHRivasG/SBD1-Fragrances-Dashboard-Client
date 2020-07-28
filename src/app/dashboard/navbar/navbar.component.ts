@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { query, animate, animateChild, style, trigger, transition, group } from '@angular/animations';
 import { RouterOutlet } from '@angular/router';
+import { ImageService } from '../../auth/services/image-service.service'
+import { AuthService } from 'src/app/auth/services/auth.service';
+import { map } from 'rxjs/operators'
 
 const animation =
   trigger('routeAnimations', [
@@ -64,9 +67,14 @@ const animation =
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private iservice: ImageService, private auth: AuthService) { }
+
+  url: string
 
   ngOnInit(): void {
+    this.auth.getProducer()
+      .pipe(map(res => this.iservice.getImageLink(res.id, "productor")))
+      .subscribe(res => this.url = res)
   }
 
   prepareRoute(outlet: RouterOutlet) {

@@ -65,21 +65,20 @@ export class ContractService {
     }
   }
 
+  renewContract(idProvider: number) {
+    return this.http.post<any>('/api/contract/renew', idProvider)
+  }
+
   postContract(exclusividad) {
     let contract = localStorage.getItem('contract-cache'), option =  localStorage.getItem('contract-options') , stock = localStorage.getItem('contract-stock')
     if (contract != null && option != null && stock != null)
     {
       let contractObj = JSON.parse(contract)
       contractObj.exclusividad = exclusividad ? exclusividad : false
-      console.log({
-        contract: contractObj,
-        options: JSON.parse(option),
-        ingredients: JSON.parse(stock)
-      })
       return this.http.post('/api/contract/new', {
         contract: contractObj,
         options: JSON.parse(option),
-        ingredients: JSON.parse(stock)
+        ingredientsb: JSON.parse(stock)
       })
     }
   }

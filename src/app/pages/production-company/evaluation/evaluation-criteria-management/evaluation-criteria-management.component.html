@@ -9,7 +9,7 @@
   </mdb-breadcrumb-item>
 </mdb-breadcrumb>
 
-<mat-tab-group mat-align-tabs="center" mat-stretch-tabs dynamicHeight [(selectedIndex)]="page">
+<mat-tab-group mat-align-tabs="center" mat-stretch-tabs dynamicHeight [(selectedIndex)]="page" (selectedIndexChange)="refreshForm()">
   <mat-tab label="Criterios Actuales">
     <div class="table-card">
       <table class="mat-elevation-z8" mat-table [dataSource]="criteriaSource | async" class="w-100 mat-elevation-z8 mt-4 mr-4">
@@ -45,7 +45,7 @@
                   </button>
                 </div>
                 <div class="col">
-                  <button mat-icon-button>
+                  <button mat-icon-button (click)="cancelCriteria(element)">
                     <mat-icon>cancel</mat-icon>
                   </button>
                 </div>
@@ -83,7 +83,7 @@
               </div>
               <div class="col-10">
                 <mat-form-field>
-                  <mat-select formControlName="criteria">
+                  <mat-select formControlName="criteria" [disabled]="method != 'CREATE'">
                     <ng-container *ngFor="let rawCriteria of rawCriteriaSource | async">
                       <mat-option [value]="rawCriteria.id"> {{ rawCriteria.nombre }} </mat-option>
                     </ng-container>

@@ -57,21 +57,23 @@ export class EvaluateProviderFormulaComponent implements OnInit {
     if (result*100 >= this.evalForm.controls.passingScore.value)
     {
       window.alert(`Prueba realizada: Resultado positivo ${result*100} >= ${this.evalForm.controls.passingScore.value}`)
-      
-      formArray.controls
-        .map(fb => (fb as FormGroup).controls.condition.value)
-        .forEach(val => {
-          this.contractService.pushConditions(val)
-        })
-
 
       if (this.store.evalType == 'I')
-      { 
+      {
+        formArray.controls
+          .map(fb => (fb as FormGroup).controls.condition.value)
+          .forEach(val => {
+            this.contractService.pushConditions(val)
+          })
         this.contractService.settleConditions()
         this.router.navigate([ '../select-products' ], { relativeTo: this.route })
       }
       else
       {
+        this.contractService.renewContract(this.store.providerId)
+          .subscribe(
+            res => window.alert(`Renovado contrato en fecha ${res.fecha}`)
+          )
         this.router.navigate([ '../../evaluation' ], { relativeTo: this.route })
       }
 

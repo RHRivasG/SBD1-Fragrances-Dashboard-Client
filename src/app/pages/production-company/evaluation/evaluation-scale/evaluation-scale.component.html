@@ -9,7 +9,7 @@
   </mdb-breadcrumb-item>
 </mdb-breadcrumb>
 
-<mat-tab-group mat-align-tabs="center" mat-stretch-tabs dynamicHeight [(selectedIndex)]="page">
+<mat-tab-group mat-align-tabs="center" mat-stretch-tabs dynamicHeight [(selectedIndex)]="page" (selectedIndexChange)="setMethod()">
   <mat-tab label="Criterios Actuales">
     <div class="table-card">
       <table class="mat-elevation-z8" mat-table [dataSource]="scaleSource | async" class="w-100 mat-elevation-z8 mt-4 mr-4">
@@ -25,7 +25,7 @@
 
         <ng-container matColumnDef="lower">
           <th mat-header-cell *matHeaderCellDef>
-            Rango Superior
+            Rango Inferior
           </th>
           <td mat-cell *matCellDef="let element">
             {{ element.rangoi }}
@@ -49,12 +49,12 @@
             <div class="container">
               <div class="row">
                 <div class="col">
-                  <button mat-icon-button>
+                  <button (click)="edit(element)"  mat-icon-button>
                     <mat-icon>create</mat-icon>
                   </button>
                 </div>
                 <div class="col">
-                  <button mat-icon-button>
+                  <button (click)="confirmCancel(element)" mat-icon-button>
                     <mat-icon>cancel</mat-icon>
                   </button>
                 </div>
@@ -70,7 +70,7 @@
     </div>
   </mat-tab>
   <mat-tab label="Crear/Actualizar Criterio">
-    <form [formGroup] = "evalForm">
+    <form [formGroup] = "evalForm" (ngSubmit)="newScale()">
       <mat-card class="mat-elevation-z8 container">
         <mat-card-title>
           Formulario de Criterio
@@ -83,7 +83,7 @@
               </div>
               <div class="col-10" appareance="legacy">
                 <mat-form-field hintLabel="Numero entero. Ej 1, 7" appareance="legacy">
-                  <input matInput placeholder="Limite Inferior de la Escala">
+                  <input formControlName="rangoi" type="number" matInput placeholder="Limite Inferior de la Escala">
                 </mat-form-field>
               </div>
             </div>
@@ -93,7 +93,7 @@
               </div>
               <div class="col-10" appareance="legacy">
                 <mat-form-field hintLabel="Numero entero. Ej 1, 7" appareance="legacy">
-                  <input matInput placeholder="Limite Superior de la Escala">
+                  <input formControlName="rangf" type="number" matInput placeholder="Limite Superior de la Escala">
                 </mat-form-field>
               </div>
             </div>
@@ -115,7 +115,7 @@
         <mat-card-actions>
           <div class="container-fluid">
             <div class="row">
-              <button mat-flat-button type="submit" color="primary"> <mat-icon class="mr-1">check</mat-icon> Aceptar </button>
+              <button mat-flat-button type="submit" color="primary" [disabled]="evalForm.invalid"> <mat-icon class="mr-1">check</mat-icon> Aceptar </button>
             </div>
           </div>
         </mat-card-actions>

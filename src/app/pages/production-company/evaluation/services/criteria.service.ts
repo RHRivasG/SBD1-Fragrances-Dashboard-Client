@@ -20,4 +20,20 @@ export class CriteriaService implements Resolve<EvalCriteria[]> {
       })
     )
   }
+
+  postCriteria(c) {
+    console.log(c)
+    return this.http.post('/api/producers/criteria/new', c, { responseType: 'text/plain' as 'json' })
+  }
+
+  cancelCriteria(c) {
+    return this.http.patch(`/api/producers/criteria/cancel?criteria_id=${c.id_criterio}&date_epoch=${c.fechai}`, null, {responseType: 'text/plain' as 'json'})
+  }
+
+  updateCriteria(e) {
+    console.log(e)
+    return this.http.put(`/api/producers/criteria/update`, e, {responseType: 'text/plain' as 'json'})
+  }
+
+  
 }
