@@ -32,6 +32,7 @@ import { MatCheckboxModule } from "@angular/material/checkbox";
     MatSelectModule,
     MatGridListModule,
     MatListModule,
+    MatListModule,
     MatCheckboxModule,
   ],
 })

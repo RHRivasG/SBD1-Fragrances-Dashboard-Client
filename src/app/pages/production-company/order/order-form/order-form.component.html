@@ -29,14 +29,12 @@
 <h1>Productos:</h1>
 <section class="example-section">
   <span class="example-list-section">
-    <ul>
-      <li #ings *ngFor="let ingrediente of presentaciones">
-        <mat-checkbox [value]="ingrediente.id">
-          cas number {{ ingrediente.id_ifra_ing }} {{ ingrediente.vol
+    <mat-selection-list>
+      <mat-list-option *ngFor="let ingrediente of presentaciones">
+        cas number {{ ingrediente.id_ifra_ing }} {{ ingrediente.vol
           }}{{ ingrediente.unidades }} {{ ingrediente.precio }}$
-        </mat-checkbox>
-      </li>
-    </ul>
+      </mat-list-option>
+    </mat-selection-list>
   </span>
 </section>
 
