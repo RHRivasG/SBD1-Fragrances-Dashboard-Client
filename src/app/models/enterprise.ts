@@ -1,7 +1,6 @@
 import { Provider } from './provider-model';
 import { Producer } from './producer-model';
 
-
 export interface Enterprise {
     id: number;
     name: string;

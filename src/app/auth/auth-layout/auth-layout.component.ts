@@ -1,6 +1,5 @@
-import { Breakpoints, BreakpointObserver } from "@angular/cdk/layout"
 import { Component, OnInit, ViewChild, AfterViewInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { map, filter } from 'rxjs/operators'
 import { FormBuilder, FormGroup, Validators } from '@angular/forms'
 import { MatStepper } from '@angular/material/stepper';
@@ -58,7 +57,7 @@ export class AuthLayoutComponent implements OnInit, AfterViewInit {
     return this.internal_data.pipe(
       map((collection : any[]) => {
         if (this.step == 'productor') return collection.filter(element => element.tipo == 'R')
-        else if (this.step == 'provider') return collection.filter(element => element.tipo == 'V')
+        else if (this.step == 'provider') return collection.filter(element => {return element.tipo == 'V'})
         else return collection
       })
     )

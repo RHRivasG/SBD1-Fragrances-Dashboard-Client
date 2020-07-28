@@ -12,6 +12,7 @@ import { MatSelectionList } from '@angular/material/list';
 import { EvaluationStorageService } from '../services/evaluation-storage.service';
 import { ProvidersService } from 'src/app/services/providers.service';
 import { Provider } from 'src/app/models/provider-model';
+import { ContractService } from '../services/contract.service';
 
 
 /*function atLeast(limit = 1) {
@@ -28,15 +29,6 @@ import { Provider } from 'src/app/models/provider-model';
   styleUrls: ['./evaluate-provider.component.scss']
 })
 export class EvaluateProviderComponent implements OnInit {
-
-  showInitial = true
-  source: Observable<EvalCriteria[]>
-  providersInit: Observable<Provider[]>
-  providersEff: Observable<Provider[]>
-  checkId: number;
-
-  constructor(private router: Router, private route: ActivatedRoute, private rawService: RawCriteriaService, private evalStorage: EvaluationStorageService) { }
-
   /*
   get checkForm(): Observable<FormGroup> {
     return this.providerSource
@@ -52,6 +44,15 @@ export class EvaluateProviderComponent implements OnInit {
         })
       )
       }*/
+
+  showInitial = true
+  source: Observable<EvalCriteria[]>
+  providersInit: Observable<Provider[]>
+  providersEff: Observable<Provider[]>
+  checkId: number;
+
+  constructor(private router: Router, private route: ActivatedRoute, private rawService: RawCriteriaService, private evalStorage: EvaluationStorageService, private contractService: ContractService) { }
+
   
   get providerSource(): Observable<Provider[]> {
     return this.showInitial ? this.providersInit : this.providersEff
@@ -94,6 +95,7 @@ export class EvaluateProviderComponent implements OnInit {
       criteriaList.selectedOptions.selected.map(v => v.value),
       this.checkId
     )
+    this.contractService.newContractWith(this.checkId)
     this.router.navigate(['../formula'], {relativeTo: this.route})
   }
 

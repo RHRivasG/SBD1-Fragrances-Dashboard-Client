@@ -1,0 +1,69 @@
+.table-card {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    widht: 100%;
+}
+
+div .container {
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+th {
+    text-align: center;
+}
+
+.mat-cell {
+    text-align: center;
+}
+
+.mat-header-cell {
+    text-align: center;
+}
+
+mat-tab {
+    display: flex;
+    justify-content: center;
+}
+
+mat-card {
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+p {
+    min-height: 50px;
+}
+
+mat-expansion-panel {
+    margin-top: 20px;
+    border: none;
+}
+
+button {
+    width: 100%;
+}
+
+div .accept {
+    background-color: green;
+}
+
+mat-card-content {
+    margin-top: 25px;
+}
+
+div .col {
+    margin-top: 15px;
+    text-align: right;
+}
+
+div .col-sm {
+    margin-top: 15px;
+    text-align: right;
+}
+
+mat-form-field {
+    width: 100%;
+}

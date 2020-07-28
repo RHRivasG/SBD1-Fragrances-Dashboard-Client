@@ -11,6 +11,6 @@ export class EfficiencyEvaluableProivderService implements Resolve<Provider[]> {
   constructor(private http: HttpClient) { }
   
   resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Provider[] | import("rxjs").Observable<Provider[]> | Promise<Provider[]> {
-    return this.http.get<Provider[]>('/api/providers/evaluable_efficiency_by/1')
+    return this.http.get<Provider[]>('/api/providers/evaluable_efficiency_by')
   }
 }

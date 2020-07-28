@@ -40,6 +40,7 @@ export class AuthCardComponent implements OnInit {
 
   @Input() title : string
   @Input() imgSrc: string
+  @Input() ellipsis: any
 
   isSelected: boolean
 

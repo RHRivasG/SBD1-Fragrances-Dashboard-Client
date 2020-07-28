@@ -10,6 +10,11 @@ const routes: Routes = [
     resolve: {
       logOptions: AuthOptionsResolver
     }
+  },
+  {
+    path: '',
+    pathMatch: 'full',
+    redirectTo: 'auth?step=type'
   }
 ];
 

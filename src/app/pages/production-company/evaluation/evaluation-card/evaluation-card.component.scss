@@ -1,7 +1,6 @@
 @import '~@angular/material/theming', 'src/app/auth/breakpoints';
 
 .mat-card-footer {
-    margin-top: 10%;
     align-items: center;
     text-align: center;
     @include sm {
@@ -10,7 +9,7 @@
     }
 
     @include md {
-        font-size: 21px;
+        font-size: 30px;
         min-height: 36px;
     }
 
@@ -18,6 +17,12 @@
         font-size: 40px;
         min-height: 50px;
     }    
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    padding: 5%;
 }
 
 .mat-card-content {

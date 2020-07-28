@@ -1,5 +1,5 @@
 <mat-toolbar class="mat-elevation-z8">
-  <p>Estas entando a <b>Persistence</b>+ </p>
+  <p>Estas entando a <b>Persistence</b></p>
 </mat-toolbar>
 <div class="layout-body">
   <mat-horizontal-stepper linear #stepper>
@@ -22,14 +22,7 @@
     </mat-step>
     <mat-step>
       <ng-template matStepLabel>¿Que empresa desea ser?</ng-template>
-      <ng-container *ngIf="step == 'productor'">
-        <app-auth-productors [input]="data | async"></app-auth-productors>
-      </ng-container>
+      <app-auth-productors [input]="data | async" [authType]="step"></app-auth-productors>
     </mat-step>
   </mat-horizontal-stepper>
-
-
-  <ng-template #productorTemplate>
-  </ng-template>
-
 </div>

@@ -8,7 +8,20 @@ import { FormGroup, Validators, FormBuilder, ValidationErrors, FormArray } from 
 import { EvalScale } from 'src/app/models/eval-scale';
 import { ShipmentOption } from 'src/app/models/shipment-option';
 import { PaymentCondition } from 'src/app/models/payment-condition';
+import { EvaluationStorageService } from '../services/evaluation-storage.service';
+import { ContractService } from '../services/contract.service';
 
+function limitInput(fb: FormGroup) {
+  let input = fb.controls.input
+  let limit = fb.controls.scale.value
+
+  console.log(input.errors)
+
+  if (!(limit?.rangoi <= input.value && input.value <= limit?.rangf) && !!limit)
+    input.setErrors({ 'badLimited': true })
+  
+  return null
+}
 @Component({
   selector: 'app-evaluate-provider-formula',
   templateUrl: './evaluate-provider-formula.component.html',
@@ -40,10 +53,29 @@ export class EvaluateProviderFormulaComponent implements OnInit {
         let scale = fg.controls.scale.value.rangf;
         return acc + (val / scale) * (crit.peso / 100) 
       } ,0 )
+    
     if (result*100 >= this.evalForm.controls.passingScore.value)
     {
       window.alert(`Prueba realizada: Resultado positivo ${result*100} >= ${this.evalForm.controls.passingScore.value}`)
-      this.router.navigate([ '../select-products' ], { relativeTo: this.route })
+      
+      formArray.controls
+        .map(fb => (fb as FormGroup).controls.condition.value)
+        .forEach(val => {
+          this.contractService.pushConditions(val)
+        })
+
+
+      if (this.store.evalType == 'I')
+      { 
+        this.contractService.settleConditions()
+        this.router.navigate([ '../select-products' ], { relativeTo: this.route })
+      }
+      else
+      {
+        this.router.navigate([ '../../evaluation' ], { relativeTo: this.route })
+      }
+
+      
     } else {
       window.alert('Prueba realizada: Resultado negativo')
     }
@@ -57,7 +89,7 @@ export class EvaluateProviderFormulaComponent implements OnInit {
       )
   }
 
-  constructor(private route: ActivatedRoute, private rawService: RawCriteriaService, private fb: FormBuilder, private router: Router) { }
+  constructor(private route: ActivatedRoute, private rawService: RawCriteriaService, private fb: FormBuilder, private router: Router, private store: EvaluationStorageService, private contractService: ContractService) { }
 
   ngOnInit(): void {
     this.evalOptions = this.route.data
@@ -74,7 +106,7 @@ export class EvaluateProviderFormulaComponent implements OnInit {
               condition: [null, Validators.required],
               input: [null, Validators.required],
               peso: ['']
-            }))
+            }, {validators: limitInput}))
             return group
           }, this.fb.array([]))
         }
@@ -100,8 +132,10 @@ export class EvaluateProviderFormulaComponent implements OnInit {
     
   }
 
-  messageOf(point: PaymentCondition | ShipmentOption) {
-    if ('tipo' in point)
+  messageOf(point: PaymentCondition | ShipmentOption | string) {
+    if (typeof point == "string")
+      return 'Criterio de eficiencia'
+    else if ('tipo' in point)
       return `Condicion de pago ${point.tipo == 'AP' ? 'aplazado' : 'al contado'} ${point.cuotas == null ? 'sin cuotas' : 'con ' + point.cuotas + ' cuotas' }`
     else if ('costo' in point)
       return `Condicion de envio por ${point.tipo_transporte == 'A' ? 'avion' : 'barco'}`
@@ -110,13 +144,21 @@ export class EvaluateProviderFormulaComponent implements OnInit {
   pointsOf(c: EvalCriteria) {
     return this.pointsToEval
       .pipe(
-        map(res => res.filter(point => {
-          switch (c.id_criterio) {
-            case 1: return ('tipo' in point);
-            case 2: return ('costo' in point);
-          }
-        }))
+        map(res =>{
+          if (this.store.evalType == 'E') return [ 'Criterio de efficiencia' ]
+          return res
+            .filter(point => {
+              switch (c.id_criterio) {
+                case 1 : return ('tipo' in point);
+                case 2: return ('costo' in point);
+              }
+            })
+        }
       )
+    )
   }
   
 }
+
+
+

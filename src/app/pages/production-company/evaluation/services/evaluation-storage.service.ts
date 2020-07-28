@@ -5,22 +5,30 @@ import { Resolve, ActivatedRouteSnapshot, RouterStateSnapshot } from '@angular/r
 @Injectable({
   providedIn: 'root'
 })
-export class EvaluationStorageService implements Resolve<{criteria: EvalCriteria[], provider: number}>{
-  criteria: EvalCriteria[]
-  provider: number
+export class EvaluationStorageService implements Resolve<{criteria?: EvalCriteria[], provider?: number} | {efficiency?: string}>{
   
   constructor() { }
-  resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): { criteria: EvalCriteria[]; provider: number; } | import("rxjs").Observable<{ criteria: EvalCriteria[]; provider: number; }> | Promise<{ criteria: EvalCriteria[]; provider: number; }> {
+  resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): { criteria: EvalCriteria[]; provider: number} | {efficiency?: string } | import("rxjs").Observable<{ criteria: EvalCriteria[]; provider: number} | {efficiency?: string }> | Promise<{ criteria: EvalCriteria[]; provider: number} | {efficiency?: string }> {
     return {
-      criteria: this.criteria,
-      provider: this.provider
+      criteria: JSON.parse(localStorage.getItem('criteria')),
+      provider: JSON.parse(localStorage.getItem('providerId'))
     }
   }
 
-  get providerId(): number {return this.provider}
+  get providerId(): number {
+    return JSON.parse(localStorage.getItem('providerId'))
+  }
 
+  get criteria() {
+    return JSON.parse(localStorage.getItem('criteria'))
+  }
+  
+  get evalType() {
+    return this.criteria[0]?.tipoformula
+  }
+  
   store(criteria: EvalCriteria[], provider: number) {
-    this.criteria = criteria
-    this.provider = provider
+    localStorage.setItem('providerId', provider.toString())
+    localStorage.setItem('criteria', JSON.stringify(criteria))
   }
 }

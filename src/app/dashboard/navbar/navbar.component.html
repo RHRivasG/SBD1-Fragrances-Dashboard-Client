@@ -1,21 +1,16 @@
 <mat-toolbar class="mat-elevation-z8">
   <span> PERTINENCE </span>
-  <button mat-button routerLinkActive="active">
+  <button mat-button  [matMenuTriggerFor]="productor"  routerLinkActive="active">
     Soy un productor
-    <button mat-icon-button [matMenuTriggerFor]="productor">
-      <mat-icon>arrow_drop_down</mat-icon>
-    </button>
+    <mat-icon>arrow_drop_down</mat-icon>
   </button>
 
   <mat-menu #productor="matMenu">
-    <button mat-menu-item>
-      Mis productos
+    <button mat-menu-item>Mis Productos</button>
+    <button mat-menu-item>Evaluaciones
     </button>
-    <button mat-menu-item>Proveedores</button>
     <button mat-menu-item>Mis pedidos</button>
-    <button mat-menu-item>
-      Rec. de Perfumes
-    </button>
+    <button mat-menu-item>Rec. de Perfumes</button>
   </mat-menu>
 
   <mat-menu #proveedores="matMenu">
@@ -25,9 +20,7 @@
 
   <button mat-button [matMenuTriggerFor]="proveedor" routerLinkActive="active">
     Soy un proveedor
-    <button mat-icon-button [matMenuTriggerFor]="proveedor">
-      <mat-icon>arrow_drop_down</mat-icon>
-    </button>
+    <mat-icon>arrow_drop_down</mat-icon>
   </button>
   <mat-menu #proveedor="matMenu">
     <button mat-menu-item>Mis productos</button>
@@ -49,4 +42,7 @@
     <button mat-menu-item>cambiar cuenta</button>
   </mat-menu>
 </mat-toolbar>
-<router-outlet></router-outlet>
+
+<div [@routeAnimations]="prepareRoute(outlet)">
+  <router-outlet #outlet="outlet"></router-outlet>
+</div>

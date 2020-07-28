@@ -10,19 +10,37 @@ import { EvaluationCriteriaManagementComponent } from "./evaluation-criteria-man
 import { EvaluateProviderComponent } from "./evaluate-provider/evaluate-provider.component";
 import { CriteriaService } from "./services/criteria.service";
 import { EvaluationSelectProductsComponent } from "./evaluation-select-products/evaluation-select-products.component";
-import { ProvidersService } from 'src/app/services/providers.service';
 import { InitialEvaluableProviderService } from './services/initial-evaluable-provider.service';
 import { EfficiencyEvaluableProivderService } from './services/efficiency-evaluable-proivder.service';
 import { IngredientService } from 'src/app/services/ingredient.service';
+import { RawCriteriaService } from './services/raw-criteria.service';
+import { EvaluationScaleComponent } from './evaluation-scale/evaluation-scale.component';
 
 const routes: Routes = [
   {
     path: "",
     component: EvaluationHomeComponent,
+    data: {
+      animation: 'master'
+    }
   },
   {
     path: "criteria",
     component: EvaluationCriteriaManagementComponent,
+    resolve: {
+      criteria: CriteriaService,
+      rawCriteria: RawCriteriaService
+    },
+    data: {
+      animation: 'slave'
+    }
+  },
+  {
+    path: "scales",
+    component: EvaluationScaleComponent,
+    resolve: {
+      scales: ScaleService
+    }
   },
   {
     path: "provider",
@@ -32,6 +50,9 @@ const routes: Routes = [
       providerInit: InitialEvaluableProviderService,
       providerEff: EfficiencyEvaluableProivderService
     },
+    data: {
+      animation: 'slave'
+    }
   },
   {
     path: 'formula',
@@ -41,6 +62,9 @@ const routes: Routes = [
       evalScales: ScaleService,
       providerCondition: PaymentConditionService,
       providerShipment: ShipmentOptionsService
+    },
+    data: {
+      animation: 'slave'
     }
   },
   {
@@ -48,6 +72,9 @@ const routes: Routes = [
     component: EvaluationSelectProductsComponent,
     resolve: {
       ingredients: IngredientService
+    },
+    data: {
+      animation: 'slave'
     }
   },
 ];

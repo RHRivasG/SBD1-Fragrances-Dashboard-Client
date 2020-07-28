@@ -8,7 +8,7 @@
   matRipple
   >
   <mat-card-header>
-    <mat-card-title>{{ title }}</mat-card-title>
+    <mat-card-title>{{ title.length >= 13 && ellipsis ? (title | slice:0:13) + '...' : title }}</mat-card-title>
   </mat-card-header>
   <mat-card-content>
     <img mat-card-image [src]="imgSrc"/>

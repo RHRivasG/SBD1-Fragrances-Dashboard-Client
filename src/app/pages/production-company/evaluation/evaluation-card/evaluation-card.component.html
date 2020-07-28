@@ -7,8 +7,8 @@
   [@un-selected]="isSelected ? 'selected' : 'unselected'"
   matRipple
   >
-  <mat-card-content>
-    <img [src]="imgSrc" [ngStyle] = "{ 'background-color': backColor }">
+  <mat-card-content [ngStyle] = "{ 'background-color': backColor }">
+    <img [src]="imgSrc">
   </mat-card-content>
   <mat-card-footer>
     {{ fTitle  }}

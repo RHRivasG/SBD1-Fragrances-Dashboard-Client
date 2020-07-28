@@ -3,9 +3,9 @@
     <mdb-icon fas icon="home" class="mr-1"></mdb-icon>
     Evaluaciones
   </mdb-breadcrumb-item>
-  <mdb-breadcrumb-item class="active" routerLink="./criteria" fontWeight="bold">
+  <mdb-breadcrumb-item class="amber-text" routerLink="./criteria" fontWeight="bold">
     <mdb-icon fas icon="users" class="mr-1"></mdb-icon>
-    Proveedores
+    Evaluar Proveedores
   </mdb-breadcrumb-item>
 </mdb-breadcrumb>
 
@@ -87,7 +87,7 @@
                 </div>
               </div>
               <div class="row">
-                <table mat-table [dataSource]="providerSource | async" class="w-100 mat-elevation-z8 mt-4">
+                <table mat-table [dataSource]="providerSource | async" class="w-100 mat-elevation-z8 mt-4 mr-4">
                   <ng-container matColumnDef="select">
                     <th mat-header-cell *matHeaderCellDef>
                       Seleccionar
@@ -95,7 +95,7 @@
                     <td mat-cell *matCellDef="let element">
                       <mat-checkbox
                         color = "primary"
-                        (click)="checkId = element.id"
+                        (click)="$event.stopPropagation(); checkId = element.id"
                         [checked]="element.id == checkId"
                         >
                       </mat-checkbox>

@@ -1,8 +1,10 @@
-import { Component, OnInit } from "@angular/core";
-import { ActivatedRoute } from '@angular/router';
+import { Component, OnInit, ViewChild } from "@angular/core";
+import { ActivatedRoute, Router } from '@angular/router';
 import { map } from 'rxjs/operators';
-import { IngredientService } from 'src/app/services/ingredient.service';
+import { IngredientService } from "src/app/services/ingredient.service";
 import { EvaluationStorageService } from '../services/evaluation-storage.service';
+import { ContractService } from '../services/contract.service';
+import { MatSelectionList } from '@angular/material/list';
 
 @Component({
   selector: "app-evaluation-select-products",
@@ -12,8 +14,10 @@ import { EvaluationStorageService } from '../services/evaluation-storage.service
 export class EvaluationSelectProductsComponent implements OnInit {
   //Datos de prueba
   products: any;
-
-  constructor(private route: ActivatedRoute, private push: IngredientService, private store: EvaluationStorageService) {}
+  @ViewChild('ifralist')
+  ifralist: MatSelectionList
+  
+  constructor(private route: ActivatedRoute, private push: IngredientService, private store: EvaluationStorageService, private router: Router, private contractService: ContractService) {}
 
   ngOnInit(): void {
     this.products = this.route.data.pipe(
@@ -21,16 +25,18 @@ export class EvaluationSelectProductsComponent implements OnInit {
     )
   }
 
-  onSave(status) {
-    this.push.pushContract(
-      {
-        id_emp_prod: 1,
-        id_emp_prov: this.store.providerId,
-        exclusividad: false,
-        fecha_emision: new Date('2020-07-23'),
-        fecha_cancelado: null,
-        motivo_cancelado: null
-      }
+  onSave(ifra, others) {
+    this.contractService
+      .withIngredients(
+        ifra.selectedOptions.selected.map(res => res.value),
+        others.selectedOptions.selected.map(res => res.value)
+      )
+    this.contractService.postContract(false).subscribe(
+      _ => {
+        window.alert('Contrato creado correctamente')
+        this.router.navigate(['../../evaluation'], {relativeTo: this.route})
+      },
+      e => window.alert(`Creacion del contrato fallido, ${e.message}`)
     )
   }
 }
