@@ -78,7 +78,7 @@ export class ContractService {
       return this.http.post('/api/contract/new', {
         contract: contractObj,
         options: JSON.parse(option),
-        ingredientsb: JSON.parse(stock)
+        ingredients: JSON.parse(stock)
       })
     }
   }

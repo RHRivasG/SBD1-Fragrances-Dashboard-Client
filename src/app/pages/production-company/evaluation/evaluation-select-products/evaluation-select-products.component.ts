@@ -26,6 +26,8 @@ export class EvaluationSelectProductsComponent implements OnInit {
   }
 
   onSave(ifra, others) {
+    console.log(ifra)
+    console.log(others)
     this.contractService
       .withIngredients(
         ifra.selectedOptions.selected.map(res => res.value),
