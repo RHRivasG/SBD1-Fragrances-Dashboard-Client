@@ -1,7 +1,9 @@
 <div>
   <a href="/dashboard/productor/orders/select-provider">
     <button mat-raised-button color="primary" routerLink="/providers">
-      <mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon>
+      <mat-icon aria-hidden="false" aria-label="Example home icon"
+        >shopping_cart</mat-icon
+      >
       Hacer pedido
     </button>
   </a>
@@ -27,7 +29,7 @@
   <ng-container matColumnDef="status">
     <th mat-header-cell *matHeaderCellDef>Estado</th>
     <td mat-cell *matCellDef="let element">
-      <div *ngIf="element.status === 'ped'; then pendiente else pagado"></div>
+      <div *ngIf="element.status === 'ped'; then pendiente; else pagado"></div>
       <ng-template #pendiente>
         pendiente
       </ng-template>
@@ -46,16 +48,20 @@
   <ng-container matColumnDef="pagar">
     <th mat-header-cell *matHeaderCellDef>Pagar</th>
     <td mat-cell *matCellDef="let element">
-      <div *ngIf="element.status === 'ped'; then pagar else pagado"></div>
+      <div *ngIf="element.status === 'ped'; then pagar; else pagado"></div>
       <ng-template #pagar>
         <button mat-raised-button color="primary">
-          <mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon>
+          <mat-icon aria-hidden="false" aria-label="Example home icon"
+            >payments</mat-icon
+          >
           Pagar
         </button>
       </ng-template>
       <ng-template #pagado>
         <button mat-raised-button color="primary">
-          <mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon>
+          <mat-icon aria-hidden="false" aria-label="Example home icon"
+            >home</mat-icon
+          >
           Pagado
         </button>
       </ng-template>

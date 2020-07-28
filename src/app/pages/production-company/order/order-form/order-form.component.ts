@@ -2,6 +2,17 @@ import { Component, OnInit } from "@angular/core";
 import { OrderService } from "../order.service";
 import { AuthService } from "src/app/auth/services/auth.service";
 
+export interface PedidoForm {
+  contrato_pago: number;
+  contrato_envio: number;
+  presentasiones: Par[];
+}
+
+export interface Par {
+  id: number;
+  cantidad: number;
+}
+
 @Component({
   selector: "app-order-form",
   templateUrl: "./order-form.component.html",
@@ -15,6 +26,8 @@ export class OrderFormComponent implements OnInit {
   presentaciones: any[] = [];
   condpago: any[] = [];
   condenvio: any[] = [];
+  envi: any;
+  pag: any;
 
   ngOnInit(): void {
     this.auth.getProducer().subscribe((res) => {
@@ -58,10 +71,11 @@ export class OrderFormComponent implements OnInit {
     );
   }
 
-  createOrder(pago, envio, list) {
-    console.log(list)
-    console.log(pago.value);
-    console.log(envio.value);
+  createOrder(list) {
+    let p: any[] = list.selectedOptions.selected.map((res) => res.value);
+    console.log(p);
+    console.log(this.envi);
+    console.log(this.pag);
     //console.log(presentaciones.selectedOptions.selected[0]?.value);
   }
 }
